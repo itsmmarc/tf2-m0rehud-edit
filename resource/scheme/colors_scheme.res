@@ -494,8 +494,8 @@
 		"HudCaptureProgressBar.Active"						"HudProgressBarActive"
 		"HudCaptureProgressBar.InActive"					"HudProgressBarInActive"
 
-		"FGColor"											"Orange"
-		"BGColor"											"TransparentBlack"
+		"FGColor"											"White"
+		"BGColor"											"0 0 0 0"
 
 		"ViewportBG"										"Blank"
 		"TeamSpec"											"HUDSpectator"
@@ -517,7 +517,7 @@
 		"SelectionSelectedBoxBg"							"TransparentBlack"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg"										"TransparentLightestBlack"
+		"HintMessageBg"										"0 0 0 0"
 
 		"ProgressBarFg"										"Red"
 
