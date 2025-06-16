@@ -34,7 +34,7 @@
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"ClassesAnchor"
-		"XPos"										"c15"
+		"XPos"										"c"
 		"YPos"										"c-65"
 		"Wide"										"10"
 		"Tall"										"10"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"								"CExButton"
 		"FieldName"									"EditLoadoutButton"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -73,7 +73,7 @@
 
 		"Pin_To_Sibling"							"ClassesAnchor"
 	}
-
+    
 	//==================================================================================================================================================
 	// SCOUT
 	//==================================================================================================================================================
@@ -81,7 +81,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Scout"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"7"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -103,7 +103,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"EditLoadoutButton"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -111,7 +111,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumScout"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"MvMUpgradeImageScout"
-		"XPos"										"2"
+		"XPos"										"99999"
 		"YPos"										"1"
 		"ZPos"										"10"
 		"Wide"										"8"
@@ -149,18 +149,85 @@
 	//==================================================================================================================================================
 	// SOLDIER
 	//==================================================================================================================================================
-	"Soldier"
+    "BGSoldier"
+    {
+		"ControlName"								"ImagePanel"
+		"FieldName"									"BGSoldier"
+		"XPos"										"-240"
+		"YPos"										"120"
+		"ZPos"										"-4"
+		"Wide"										"170"
+		"Tall"										"400"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ScaleImage"								"1"
+		"Image"										"replay/thumbnails/health/health_box"
+		"Alpha"										"255"
+		"DrawColor"									"TransparentLightBlack"
+
+        "Command"									"joinclass soldier"
+		"stayselectedonclick"						"1"
+		"selectonhover"								"1"
+		"KeyboardInputEnabled"						"0"
+
+        "Pin_To_Sibling"							"ClassesAnchor"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+	}
+
+    "IconSoldier"
+	{
+		"ControlName"								"CEXImageButton"
+		"FieldName"									"IconSoldier"
+		"XPos"										"0"
+		"YPos"										"-300"
+		"ZPos"										"6"
+		"Wide"										"170"
+		"Tall"										"200"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"LabelText"									""
+		"TextAlignment"								"south-west"
+		"Command"									"joinclass soldier"
+		"Font"										"MenuKeys"
+		"ScaleImage"								"1"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+		"Sound_Released"							"UI/buttonclickrelease.wav"
+
+
+        
+		"Pin_To_Sibling"							"BGSoldier"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "FieldName"     "SubImage"
+            "ypos"          "0"
+            "xpos"          ""
+            "wide"          "100"
+            "tall"          "100"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+            "image"         "itsame/leaderboard_class_soldier_explode"
+            "ProportionalToParent"  "1"
+        }
+	}
+
+    "Soldier"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Soldier"
-		"XPos"										"0"
-		"YPos"										"0"
+		"XPos"										"-65"
+		"YPos"										"-296"
 		"ZPos"										"6"
 		"Wide"										"65"
 		"Tall"										"11"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"LabelText"									"&2  Soldier"
+		"LabelText"									"Soldier"
 		"TextAlignment"								"west"
 		"Command"									"joinclass soldier"
 		"Font"										"m0refont11"
@@ -175,29 +242,9 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"scout"
+		"Pin_To_Sibling"							"BGSoldier"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
-	}
-	"NumSoldier"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"NumSoldier"
-		"XPos"										"0"
-		"YPos"										"0"
-		"Wide"										"50"
-		"Tall"										"11"
-		"ZPos"										"6"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"TextAlignment"								"west"
-		"LabelText"									"%numSoldier%"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
-
-		"Pin_To_Sibling"							"soldier"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 	}
 	"MvMUpgradeImageSolider"
 	{
@@ -225,7 +272,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Pyro"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -247,7 +294,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"soldier"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -255,7 +302,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumPyro"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -275,7 +322,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"MvMUpgradeImagePyro"
-		"XPos"										"2"
+		"XPos"										"99999"
 		"YPos"										"1"
 		"ZPos"										"10"
 		"Wide"										"8"
@@ -293,18 +340,84 @@
 	//==================================================================================================================================================
 	// DEMOMAN
 	//==================================================================================================================================================
-	"Demoman"
+    "BGDemoman"
+    {
+		"ControlName"								"ImagePanel"
+		"FieldName"									"BGDemoman"
+		"XPos"										"50"
+		"YPos"										"120"
+		"ZPos"										"-4"
+		"Wide"										"170"
+		"Tall"										"400"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ScaleImage"								"1"
+		"Image"										"replay/thumbnails/health/health_box"
+		"Alpha"										"255"
+		"DrawColor"									"TransparentLightBlack"
+
+		"Command"									"joinclass demoman"
+		"stayselectedonclick"						"1"
+		"selectonhover"								"1"
+		"KeyboardInputEnabled"						"0"
+
+        "Pin_To_Sibling"							"ClassesAnchor"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+	}
+
+        "IconDemoman"
+	{
+		"ControlName"								"CEXImageButton"
+		"FieldName"									"IconDemoman"
+		"XPos"										"0"
+		"YPos"										"-300"
+		"ZPos"										"6"
+		"Wide"										"170"
+		"Tall"										"200"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"LabelText"									""
+		"TextAlignment"								"south-west"
+		"Command"									"joinclass soldier"
+		"Font"										"MenuKeys"
+		"ScaleImage"								"1"
+		"Sound_Depressed"							"UI/buttonclick.wav"
+		"Sound_Released"							"UI/buttonclickrelease.wav"
+
+
+        
+		"Pin_To_Sibling"							"BGDemoman"
+		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
+
+        "SubImage2"
+        {
+            "ControlName"   "ImagePanel"
+            "FieldName"     "SubImage2"
+            "ypos"          "0"
+            "xpos"          ""
+            "wide"          "100"
+            "tall"          "100"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+            "image"         "itsame/leaderboard_class_demo_sticky_daan"
+            "ProportionalToParent"  "1"
+        }
+	}
+    "Demoman"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Demoman"
-		"XPos"										"0"
-		"YPos"										"0"
+		"XPos"										"-60"
+		"YPos"										"-296"
 		"ZPos"										"6"
 		"Wide"										"65"
 		"Tall"										"11"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"LabelText"									"&4  Demoman"
+		"LabelText"									"Demoman"
 		"TextAlignment"								"west"
 		"Command"									"joinclass demoman"
 		"Font"										"m0refont11"
@@ -319,30 +432,11 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"pyro"
+		"Pin_To_Sibling"							"BGDemoman"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-	"NumDemoman"
-	{
-		"ControlName"								"CExLabel"
-		"FieldName"									"NumDemoman"
-		"XPos"										"0"
-		"YPos"										"0"
-		"Wide"										"50"
-		"Tall"										"11"
-		"ZPos"										"6"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"TextAlignment"								"west"
-		"LabelText"									"%numDemoman%"
-		"Font"										"m0refont11"
-		"FGColor"									"White"
 
-		"Pin_To_Sibling"							"demoman"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
-	}
 	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"								"ImagePanel"
@@ -369,7 +463,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"HeavyWeapons"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -391,7 +485,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"demoman"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -399,7 +493,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumHeavy"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -441,7 +535,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Engineer"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -463,7 +557,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"heavyweapons"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -471,7 +565,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumEngineer"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -513,7 +607,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Medic"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -535,7 +629,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"engineer"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -543,7 +637,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumMedic"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -585,7 +679,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Sniper"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -607,7 +701,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"medic"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -615,7 +709,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumSniper"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -657,7 +751,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Spy"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -679,7 +773,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"sniper"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -687,7 +781,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"NumSpy"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"Wide"										"50"
 		"Tall"										"11"
@@ -727,7 +821,7 @@
 	//==================================================================================================================================================
 	"Random"
 	{
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"7"
 		"ZPos"										"6"
 		"Wide"										"65"
@@ -749,7 +843,7 @@
 		"DepressedFGColor_Override"					"Class_Selection"
 		"selectedFGColor_override"					"Class_Selection"
 
-		"Pin_To_Sibling"							"spy"
+		"Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -761,8 +855,8 @@
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"FieldName"									"TFPlayerModel"
-		"XPos"										"c-280"
-		"YPos"										"0"
+		"XPos"										"c-220"
+		"YPos"										"20"
 		"ZPos"										"6"
 		"Wide"										"480"
 		"Tall"										"480"
@@ -783,8 +877,8 @@
 			"angles_x"								"0"
 			"angles_y"								"180"
 			"angles_z"								"0"
-			"origin_x"								"320"
-			"origin_y"								"10"
+			"origin_x"								"200"
+			"origin_y"								"5"
 			"origin_z"								"-40"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
