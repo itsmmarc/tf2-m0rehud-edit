@@ -1,3 +1,8 @@
+An edit of m0rehud stripped down for only the essentials needed to play on tempus servers.
+
+***
+
+
 ![logo](https://i.imgur.com/HVyxIC3.png)
 
 <div align="center">
