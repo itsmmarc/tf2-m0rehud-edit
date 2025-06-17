@@ -90,7 +90,7 @@
         "zpos"              "10"
         "Visible"           "1"
         "Enabled"           "1"
-        "Wide"              "50"
+        "Wide"              "500"
         "Tall"              "20"
 
         "Font"										"m0refont14Shadow"
