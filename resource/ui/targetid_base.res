@@ -58,25 +58,51 @@
 		"ProportionalToParent"						"1"
 		"fillcolor"									"TransparentLightBlack"
 	}
-	"TargetNameLabel"
+
+	"TargetNameLabel"       // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"TargetNameLabel"
 		"XPos"										"0"
 		"YPos"										"cs-0.5"
 		"YPos_Minmode"								"cs-0.5"
-		"ZPos"										"5"
-		"Wide"										"640"
-		"Tall"										"500"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"ProportionalToParent"						"1"
+
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
+
 		"Font"										"m0refont14Shadow"
 		"Font_Minmode"								"m0refont10Shadow"
-		"LabelText"									"%targetname%"
+		"LabelText"									"test"
 		"TextAlignment"								"west"
 		"DisabledFGColor2_Override"					"White"
+
+        
+        "ProportionalToParent"						"1"
 	}
+    "TargetNameLabel2"      // using this to keep text centered instead
+    {
+        "ControlName"       "CExLabel"
+        "FieldName"         "TargetNameLabel2"
+        "XPos"              "cs-0.5"
+        "YPos"              "cs-0.5"
+        "zpos"              "10"
+        "Visible"           "1"
+        "Enabled"           "1"
+        "Wide"              "50"
+        "Tall"              "20"
+
+        "Font"										"m0refont14Shadow"
+		"Font_Minmode"								"m0refont10Shadow"
+		"LabelText"									"%targetname%"
+        "TextAlignment"								"center"
+
+        "ProportionalToParent"						"1"
+
+
+    }
+
 	"TargetDataLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -87,7 +113,7 @@
 		"Wide"										"280"
 		"Tall"										"22"
 		"Tall_Minmode"								"22"
-		"Visible"									"1"
+		"Visible"									"0"
 		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"Font"										"TargetID"
