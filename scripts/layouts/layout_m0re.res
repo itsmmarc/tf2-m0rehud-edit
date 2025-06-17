@@ -98,14 +98,14 @@
 	}
 	"CMainTargetID"
 	{
-		"YPos"										"c74"
+		"YPos"										"c30"
 		"YPos_Minmode"								"c17"
 		"Tall"										"55"
 		"Tall_Minmode"								"55"
 	}
 	"CSpectatorTargetID"
 	{
-		"YPos"										"c81"
+		"YPos"										"c60"
 		"YPos_Minmode"								"c81"
 		"Tall"										"55"
 		"Tall_Minmode"								"55"
