@@ -42,7 +42,7 @@
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 	}
-	"TargetBGshade"
+	"TargetBGshade" // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"TargetBGshade"
@@ -53,8 +53,8 @@
 		"Wide"										"252"
 		"Tall"										"12"
 		"Tall_Minmode"								"10"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"fillcolor"									"TransparentLightBlack"
 	}
@@ -74,7 +74,7 @@
 
 		"Font"										"m0refont14Shadow"
 		"Font_Minmode"								"m0refont10Shadow"
-		"LabelText"									"test"
+		"LabelText"									"testing"
 		"TextAlignment"								"west"
 		"DisabledFGColor2_Override"					"White"
 
