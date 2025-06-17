@@ -72,14 +72,14 @@
 	}
 
 	//==================================================================================================================================================
-	// AMMO IN RESERVE
+	// AMMO IN RESERVE  // DISABLED
 	//==================================================================================================================================================
 	"AmmoInReserve"
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInReserve"
-		"XPos"										"-11"
-		"YPos"										"-15"
+		"XPos"										"99999"
+		"YPos"										"99999"
 		"YPos_Minmode"								"-1"
 		"ZPos"										"7"
 		"Wide"										"150"
@@ -87,7 +87,7 @@
 		"Tall"										"80"
 		"Tall_Minmode"								"40"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"Font"										"m0refont12"
 		"Font_Minmode"								"m0refont18"
 		"TextAlignment"								"west"
@@ -102,15 +102,15 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"AmmoInReserveShadow"
-		"XPos"										"-1"
-		"YPos"										"-1"
+		"XPos"										"99999"
+		"YPos"										"99999"
 		"ZPos"										"7"
 		"Wide"										"150"
 		"Wide_Minmode"								"40"
 		"Tall"										"80"
 		"Tall_Minmode"								"40"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"Font"										"m0refont12"
 		"Font_Minmode"								"m0refont18"
 		"TextAlignment"								"west"
