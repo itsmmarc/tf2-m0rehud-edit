@@ -157,7 +157,7 @@
 		"YPos"										"120"
 		"ZPos"										"-4"
 		"Wide"										"170"
-		"Tall"										"400"
+		"Tall"										"350"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
@@ -173,58 +173,49 @@
 	}
 
     "IconSoldier"
-	{
-		"ControlName"								"CEXImageButton"
-		"FieldName"									"IconSoldier"
-		"XPos"										"0"
-		"YPos"										"-300"
-		"ZPos"										"6"
-		"Wide"										"170"
-		"Tall"										"200"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"LabelText"									""
-		"TextAlignment"								"south-west"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "IconSoldier"
+        "xpos"          "0"
+        "ypos"          "-90"
+        "zpos"          "10"
+        "wide"          "170"
+        "tall"          "170"
+        "paintBackground"   "0"
+        "LabelText"		    ""
+
         "Command"									"joinclass soldier"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"KeyboardInputEnabled"						"0"
-		"Font"										"MenuKeys"
-		"ScaleImage"								"1"
-		"Sound_Depressed"							"UI/buttonclick.wav"
-		"Sound_Released"							"UI/buttonclickrelease.wav"
 
-
-        
-		"Pin_To_Sibling"							"BGSoldier"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
-
+        "Pin_To_Sibling"							"BGSoldier"
+        // ...
         "SubImage"
         {
             "ControlName"   "ImagePanel"
-            "FieldName"     "SubImage"
-            "ypos"          "0"
-            "xpos"          ""
-            "wide"          "100"
-            "tall"          "100"
-            "visible"       "1"
-            "enabled"       "1"
-            "scaleImage"    "1"
+            "fieldName"      "SubImage"
+            "xpos"         "0"
+            "ypos"         "0"
+            "zpos"         "1"
+            "wide"         "170"
+            "tall"         "170"
+            "visible"      "1"
+            "enabled"      "1"
             "image"         "itsame/leaderboard_class_soldier_explode"
-            "ProportionalToParent"  "1"
+            "scaleImage"   "1"
         }
-	}
+    }
 
     "Soldier"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Soldier"
 		"XPos"										"-65"
-		"YPos"										"-296"
+		"YPos"										"-285"
 		"ZPos"										"6"
 		"Wide"										"65"
-		"Tall"										"11"
+		"Tall"										"411"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"Soldier"
@@ -246,10 +237,10 @@
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-	"MvMUpgradeImageSolider"
+	"MvMUpgradeImageSoldier"
 	{
 		"ControlName"								"ImagePanel"
-		"FieldName"									"MvMUpgradeImageSolider"
+		"FieldName"									"MvMUpgradeImageSoldier"
 		"XPos"										"2"
 		"YPos"										"1"
 		"ZPos"										"10"
@@ -348,7 +339,7 @@
 		"YPos"										"120"
 		"ZPos"										"-4"
 		"Wide"										"170"
-		"Tall"										"400"
+		"Tall"										"350"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
@@ -363,63 +354,55 @@
 		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 	}
 
-        "IconDemoman"
-	{
-		"ControlName"								"CEXImageButton"
-		"FieldName"									"IconDemoman"
-		"XPos"										"0"
-		"YPos"										"-300"
-		"ZPos"										"6"
-		"Wide"										"170"
-		"Tall"										"200"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"LabelText"									""
-		"TextAlignment"								"south-west"
-		"Command"									"joinclass demoman"
+    "IconDemoman"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "IconDemoman"
+        "xpos"          "0"
+        "ypos"          "-90"
+        "zpos"          "10"
+        "wide"          "170"
+        "tall"          "170"
+        "paintBackground"   "0"
+        "LabelText"		    ""
+
+        "Command"									"joinclass demoman"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"KeyboardInputEnabled"						"0"
-		"Font"										"MenuKeys"
-		"ScaleImage"								"1"
-		"Sound_Depressed"							"UI/buttonclick.wav"
-		"Sound_Released"							"UI/buttonclickrelease.wav"
 
-
-        
-		"Pin_To_Sibling"							"BGDemoman"
-		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
-
-        "SubImage2"
+        "Pin_To_Sibling"							"BGDemoman"
+        // ...
+        "SubImage"
         {
             "ControlName"   "ImagePanel"
-            "FieldName"     "SubImage2"
-            "ypos"          "0"
-            "xpos"          ""
-            "wide"          "100"
-            "tall"          "100"
-            "visible"       "1"
-            "enabled"       "1"
-            "scaleImage"    "1"
+            "fieldName"      "SubImage"
+            "xpos"         "0"
+            "ypos"         "0"
+            "zpos"         "1"
+            "wide"         "170"
+            "tall"         "170"
+            "visible"      "1"
+            "enabled"      "1"
             "image"         "itsame/leaderboard_class_demo_sticky_daan"
-            "ProportionalToParent"  "1"
+            "scaleImage"   "1"
         }
-	}
+    }
+
     "Demoman"
 	{
 		"ControlName"								"CExImageButton"
 		"FieldName"									"Demoman"
-		"XPos"										"-60"
-		"YPos"										"-296"
+		"XPos"										"-65"
+		"YPos"										"-285"
 		"ZPos"										"6"
 		"Wide"										"65"
-		"Tall"										"11"
+		"Tall"										"411"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"LabelText"									"Demoman"
 		"TextAlignment"								"west"
-		"Command"									"joinclass demoman"
+		"Command"									"joinclass Demoman"
 		"Font"										"m0refont11"
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
@@ -436,7 +419,6 @@
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"								"ImagePanel"
@@ -451,7 +433,7 @@
 		"Image"										"mvm/class_upgraded"
 		"ScaleImage"								"1"
 
-		"Pin_To_Sibling"							"demoman"
+		"Pin_To_Sibling"							"Demoman"
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_RIGHT"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_LEFT"
 	}
