@@ -45,12 +45,12 @@
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"PipesPresentPanel"
-		"XPos"										"0"
+		"XPos"										"9999"
 		"YPos"										"0"
 		"ZPos"										"1"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"1"
+		"Visible"									"0"
 
 		"NumPipesLabel"
 		{
