@@ -165,10 +165,7 @@
 		"Alpha"										"255"
 		"DrawColor"									"TransparentLightBlack"
 
-        "Command"									"joinclass soldier"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"KeyboardInputEnabled"						"0"
+
 
         "Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -188,7 +185,10 @@
 		"Enabled"									"1"
 		"LabelText"									""
 		"TextAlignment"								"south-west"
-		"Command"									"joinclass soldier"
+        "Command"									"joinclass soldier"
+		"stayselectedonclick"						"1"
+		"selectonhover"								"1"
+		"KeyboardInputEnabled"						"0"
 		"Font"										"MenuKeys"
 		"ScaleImage"								"1"
 		"Sound_Depressed"							"UI/buttonclick.wav"
@@ -356,10 +356,7 @@
 		"Alpha"										"255"
 		"DrawColor"									"TransparentLightBlack"
 
-		"Command"									"joinclass demoman"
-		"stayselectedonclick"						"1"
-		"selectonhover"								"1"
-		"KeyboardInputEnabled"						"0"
+
 
         "Pin_To_Sibling"							"ClassesAnchor"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -379,7 +376,10 @@
 		"Enabled"									"1"
 		"LabelText"									""
 		"TextAlignment"								"south-west"
-		"Command"									"joinclass soldier"
+		"Command"									"joinclass demoman"
+		"stayselectedonclick"						"1"
+		"selectonhover"								"1"
+		"KeyboardInputEnabled"						"0"
 		"Font"										"MenuKeys"
 		"ScaleImage"								"1"
 		"Sound_Depressed"							"UI/buttonclick.wav"
