@@ -1,17 +1,17 @@
 "Resource/UI/TargetID_Base.res"
 {
-	"TargetIDBG_Spec_Blue"
+	"TargetIDBG_Spec_Blue"  // disabled
 	{
 		"ControlName"								"ScalableImagePanel"
 		"FieldName"									"TargetIDBG_Spec_Blue"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"-18"
 		"YPos_Minmode"								"-20"
 		"ZPos"										"-1"
 		"Wide"										"252"
 		"Tall"										"0"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"ScaleImage"								"1"
 		"alpha"										"175"
 
@@ -21,18 +21,18 @@
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 	}
-	"TargetIDBG_Spec_Red"
+	"TargetIDBG_Spec_Red"   // disabled
 	{
 		"ControlName"								"ScalableImagePanel"
 		"FieldName"									"TargetIDBG_Spec_Red"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"-18"
 		"YPos_Minmode"								"-20"
 		"ZPos"										"-1"
 		"Wide"										"252"
 		"Tall"										"30"
 		"Visible"									"0"
-		"Enabled"									"1"
+		"Enabled"									"0"
 		"ScaleImage"								"1"
 		"alpha"										"175"
 
@@ -65,13 +65,13 @@
 		"XPos"										"0"
 		"YPos"										"cs-0.5"
 		"YPos_Minmode"								"cs-0.5"
-		"ZPos"										"1"
+		"ZPos"										"5"
 		"Wide"										"640"
-		"Tall"										"12"
+		"Tall"										"500"
 		"Visible"									"1"
-		"Enabled"									"0"
+		"Enabled"									"1"
 		"ProportionalToParent"						"1"
-		"Font"										"m0refont11Shadow"
+		"Font"										"m0refont14Shadow"
 		"Font_Minmode"								"m0refont10Shadow"
 		"LabelText"									"%targetname%"
 		"TextAlignment"								"west"
@@ -96,11 +96,11 @@
 		"TextAlignment"								"south-west"
 		"DisabledFGColor2_Override"					"White"
 	}
-	"SpectatorGUIHealth"
+	"SpectatorGUIHealth"    // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"SpectatorGUIHealth"
-		"XPos"										"5"
+		"XPos"										"99999"
 		"XPos_Minmode"								"5"
 		"YPos"										"cs-0.5-2"
 		"YPos_Minmode"								"cs-0.5-2"
