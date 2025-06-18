@@ -128,6 +128,56 @@
 		"tooltip"									"Fix Visual Glitches"
 		"OnlyInGame"								"1"
 	}
+    // Tempus Buttons
+    "Restart"
+	{
+		"label"										"Restart"
+		"Command"									"engine sm_restart"
+		"tooltip"									"Restart Run"
+		"OnlyInGame"								"1"
+	}
+    "FullBright"
+	{
+		"label"										"FullBright"
+		"Command"									"engine toggle mat_fullbright"
+		"tooltip"									"Toggle Full Bright"
+		"OnlyInGame"								"1"
+	}
+    "ShowTriggers"
+	{
+		"label"										"ShowTriggers"
+		"Command"									"engine sm_showtriggers"
+		"tooltip"									"Toggle Show Triggers"
+		"OnlyInGame"								"1"
+	}
+    "TempusHud"
+	{
+		"label"										"TempusHud"
+		"Command"									"engine sm_hud"
+		"tooltip"									"Toggle Tempus Hud"
+		"OnlyInGame"								"1"
+	}
+    "HSpeedo"
+	{
+		"label"										"HSpeedo"
+		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.6;sm_speedocustom 255 255 255"
+		"tooltip"									"Toggle Horizontal Speedo"
+		"OnlyInGame"								"1"
+	}
+    "VSpeedo"
+	{
+		"label"										"VSpeedo"
+		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.6;sm_speedocustom 255 255 255"
+		"tooltip"									"Toggle Vertical Speedo"
+		"OnlyInGame"								"1"
+	}
+    "ASpeedo"
+	{
+		"label"										"ASpeedo"
+		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.6;sm_speedocustom 255 255 255"
+		"tooltip"									"Toggle Absolute Speedo"
+		"OnlyInGame"								"1"
+	}
 
 	//====================================================================================================================================================
 	// MENU BG
