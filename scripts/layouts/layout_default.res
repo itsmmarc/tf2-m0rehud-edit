@@ -680,7 +680,7 @@
 		"FieldName"									"HudHintDisplay"
 		"Visible"									"0"
 		"Enabled"									"1"
-		"XPos"										"80"
+		"XPos"										"cs-0.5"
 		"YPos"										"c80"
 		"Wide"										"480"
 		"Tall"										"150"
