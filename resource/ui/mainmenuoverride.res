@@ -691,7 +691,7 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"QuitGame"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"5"
 		"ZPos"										"15"
 		"Wide"										"150"
 		"Tall"										"17"
@@ -934,11 +934,11 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"TempusButtonAnchor"
-		"XPos"										"r55"
+		"XPos"										"rs1-60"
 		"YPos"										"40"
         "fillcolor"                                 "red"
-		"Wide"										"30"
-		"Tall"										"30"
+		"Wide"										"1"
+		"Tall"										"1"
 		"Visible"									"0"
 		"Enabled"									"1"
 	}
