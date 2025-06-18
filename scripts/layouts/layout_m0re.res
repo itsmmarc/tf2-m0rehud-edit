@@ -4,7 +4,7 @@
 	{
 		"XPos"										"0"
 		"XPos_Minmode"								"0"
-		"YPos"										"0"
+		"YPos"										"10"
 		"YPos_Minmode"								"0"
 		"Wide"										"f0"
 		"Tall"										"f0"
@@ -98,14 +98,14 @@
 	}
 	"CMainTargetID"
 	{
-		"YPos"										"c30"
+		"YPos"										"cs-0.2"
 		"YPos_Minmode"								"c17"
 		"Tall"										"55"
 		"Tall_Minmode"								"55"
 	}
 	"CSpectatorTargetID"
 	{
-		"YPos"										"c60"
+		"YPos"										"cs1.6"
 		"YPos_Minmode"								"c81"
 		"Tall"										"55"
 		"Tall_Minmode"								"55"

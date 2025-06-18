@@ -681,7 +681,7 @@
 		"Visible"									"0"
 		"Enabled"									"1"
 		"XPos"										"80"
-		"YPos"										"c70"
+		"YPos"										"c80"
 		"Wide"										"480"
 		"Tall"										"150"
 		"HintSize"									"1"
