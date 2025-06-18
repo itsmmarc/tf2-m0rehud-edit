@@ -3,8 +3,8 @@
 	"MMDashboard"
 	{
 		"FieldName"									"MMDashboard"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"10001"

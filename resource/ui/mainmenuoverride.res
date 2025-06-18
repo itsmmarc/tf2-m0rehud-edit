@@ -104,7 +104,7 @@
 		"ControlName"								"Panel"
 		"FieldName"									"MainMenuAnchor"
 		"XPos"										"c-240"
-		"YPos"										"220"
+		"YPos"										"180"
 		"Wide"										"0"
 		"Tall"										"0"
 		"Visible"									"0"
@@ -114,68 +114,7 @@
 	//==================================================================================================================================================
 	// RANK & BADGE
 	//==================================================================================================================================================
-	"RankPanel"
-	{
-		"ControlName"								"CPvPRankPanel"
-		"FieldName"									"RankPanel"
-		"XPos"										"0"
-		"YPos"										"3"
-		"ZPos"										"1"
-		"Wide"										"200"
-		"Tall"										"43"
-		"Visible"									"0"
-		"ProportionalToParent"						"1"
-		"MouseInputEnabled"							"0"
-		"matchgroup"								"MatchGroup_Casual_12v12"
-		"show_model"								"0"
-		"show_type"									"1"
-
-		"Pin_To_Sibling"							"MainMenuAnchor"
-		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-	}
-	"RankModelPanel"
-	{
-		"ControlName"								"CPvPRankPanel"
-		"FieldName"									"RankModelPanel"
-		"XPos"										"424"
-		"YPos"										"-415"
-		"ZPos"										"2"
-		"Wide"										"900"
-		"Tall"										"900"
-		"Visible"									"1"
-		"ProportionalToParent"						"1"
-		"MouseInputEnabled"							"1"
-		"matchgroup"								"MatchGroup_Casual_12v12"
-		"show_progress"								"0"
-
-		"Pin_To_Sibling"							"RankPanel"
-		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-	}
-	"CycleRankTypeButton"
-	{
-		"ControlName"								"CExImageButton"
-		"FieldName"									"CycleRankTypeButton"
-		"XPos"										"0"
-		"YPos"										"0"
-		"ZPos"										"16"
-		"Wide"										"130"
-		"Tall"										"43"
-		"Visible"									"1"
-		"Enabled"									"1"
-		"Command"									"open_rank_type_menu"
-		"ActionSignalLevel"							"1"
-		"ProportionalToParent"						"1"
-		"Sound_Depressed"							"UI/buttonclick.wav"
-
-		"PaintBackground"							"0"
-		"PaintBorder"								"0"
-
-		"Alpha"										"0"
-
-		"Pin_To_Sibling"							"RankPanel"
-	}
+	
 	"NoGCMessage"
 	{
 		"ControlName"								"CExLabel"
@@ -267,7 +206,7 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Servers"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"5"
 		"ZPos"										"15"
 		"Wide"										"150"
 		"Tall"										"17"
@@ -382,11 +321,11 @@
 			"DepressedFGColor_Override"				"Menu_Accent"
 		}
 	}
-	"Store"
+	"Store" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Store"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"15"
 		"Wide"										"150"
@@ -432,7 +371,7 @@
 		"Wide"										"150"
 		"Tall"										"17"
 
-		"Pin_To_Sibling"							"Store"
+		"Pin_To_Sibling"							"Items"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -542,11 +481,11 @@
 			"DepressedFGColor_Override"				"Menu_Accent"
 		}
 	}
-	"Workshop"
+	"Workshop" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Workshop"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"15"
 		"Wide"										"150"
@@ -582,11 +521,11 @@
 			"DepressedFGColor_Override"				"Menu_Accent"
 		}
 	}
-	"DemoUI"
+	"DemoUI" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"DemoUI"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"15"
 		"Wide"										"150"
@@ -622,11 +561,11 @@
 			"DepressedFGColor_Override"				"Menu_Accent"
 		}
 	}
-	"Contracker"
+	"Contracker" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Contracker"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"15"
 		"Wide"										"150"
@@ -667,12 +606,12 @@
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Quit"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"5"
 		"ZPos"										"15"
 		"Wide"										"150"
 		"Tall"										"17"
 
-		"Pin_To_Sibling"							"Contracker"
+		"Pin_To_Sibling"							"HUDOptions"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -717,7 +656,7 @@
 		"Tall"										"17"
 		"Visible"									"0"
 
-		"Pin_To_Sibling"							"Contracker"
+		"Pin_To_Sibling"							"HUDOptions"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -991,7 +930,7 @@
 //======================
 // TEMPUS BUTTONS
 //======================
-        "TempusButtonAnchor"
+    "TempusButtonAnchor"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"TempusButtonAnchor"
@@ -1258,7 +1197,6 @@
 		}
 	}
     
-
     "Restart"
 	{
 		"ControlName"								"EditablePanel"
@@ -1371,11 +1309,11 @@
 	//==================================================================================================================================================
 	// QUICKPLAY
 	//==================================================================================================================================================
-	"Quickplay"
+	"Quickplay" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Quickplay"
-		"XPos"										"rs1-48"
+		"XPos"										"99999" // rs1-48
 		"YPos"										"0"
 		"ZPos"										"10005"
 		"Wide"										"24"
@@ -1414,15 +1352,15 @@
 	//==================================================================================================================================================
 	// FRIENDS LIST
 	//==================================================================================================================================================
-	"Friends"
+	"Friends" // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"Friends"
 		"XPos"										"139"
 		"YPos"										"0"
 		"ZPos"										"10005"
-		"Wide"										"24"
-		"Tall"										"19"
+		"Wide"										"0"
+		"Tall"										"0"
 
 		"SubButton"
 		{
@@ -1453,16 +1391,16 @@
 			"DepressedBGColor_Override"				"Menu_Accent"
 		}
 	}
-	"MOTD_Panel"
+	"NotMOTD_Panel"
 	{
 		"ControlName"								"EditablePanel"
-		"FieldName"									"MOTD_Panel"
-		"XPos"										"rs1"
-		"YPos"										"cs-0.5+65"
+		"FieldName"									"NotMOTD_Panel"
+		"XPos"										"c150"
+		"YPos"										"cs-0.5"
 		"ZPos"										"11"
 		"Wide"										"110"
 		"Tall"										"214"
-		"Visible"									"0"
+		"Visible"									"1"
 
 		"CloseButton"
 		{
