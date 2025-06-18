@@ -18,7 +18,7 @@
 		"name_width"								"118"
 		"nemesis_width"								"15"
 		"class_width"								"18"
-		"score_width"								"20"
+		"score_width"								"0"
 		"ping_width"								"20"
 		"killstreak_width"							"18"
 		"killstreak_image_width"					"15"
@@ -74,7 +74,7 @@
 		"ProportionalToParent"						"1"
 	}
 
-	"WhiteBG"
+	"WhiteBG" // disabled
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"WhiteBG"
@@ -83,8 +83,8 @@
 		"ZPos"										"-1"
 		"Wide"										"2"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
@@ -101,7 +101,7 @@
 	//==================================================================================================================================================
 	// BLUE
 	//==================================================================================================================================================
-	"BlueScoreBG"
+	"BlueScoreBG"   // disabled
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"BlueScoreBG"
@@ -109,8 +109,8 @@
 		"YPos"										"0"
 		"Wide"										"p0.5"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
@@ -125,7 +125,7 @@
 			"Visible"								"0"
 		}
 	}
-	"BlueTeamName"
+	"BlueTeamName"  // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"BlueTeamName"
@@ -134,8 +134,8 @@
 		"ZPos"										"5"
 		"Wide"										"100"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 		"Font"										"m0refont11"
 		"FGColor"									"White"
@@ -149,7 +149,7 @@
 			"Visible"								"0"
 		}
 	}
-	"BlueTeamScore"
+	"BlueTeamScore" // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"BlueTeamScore"
@@ -158,8 +158,8 @@
 		"ZPos"										"4"
 		"Wide"										"100"
 		"Tall"										"35"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"Font"										"m0refont48"
 		"FGColor"									"White"
 		"LabelText"									"%blueteamscore%"
@@ -174,7 +174,7 @@
 			"Visible"								"0"
 		}
 	}
-	"BlueTeamPlayerCount"
+	"BlueTeamPlayerCount"   // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"BlueTeamPlayerCount"
@@ -183,8 +183,8 @@
 		"ZPos"										"1"
 		"Wide"										"100"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"Font"										"m0refont11"
 		"FGColor"									"White"
 		"LabelText"									"%blueteamplayercount%"
@@ -203,7 +203,7 @@
 	//==================================================================================================================================================
 	// RED
 	//==================================================================================================================================================
-	"RedScoreBG"
+	"RedScoreBG"    // disabled
 	{
 		"ControlName"								"Panel"
 		"FieldName"									"RedScoreBG"
@@ -211,8 +211,8 @@
 		"YPos"										"0"
 		"Wide"										"p0.5"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 
 		"ProportionalToParent"						"1"
 		"PaintBackground"							"1"
@@ -228,7 +228,7 @@
 			"Visible"								"0"
 		}
 	}
-	"RedTeamName"
+	"RedTeamName"   // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"RedTeamName"
@@ -237,8 +237,8 @@
 		"ZPos"										"5"
 		"Wide"										"100"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"Font"										"m0refont11"
 		"FGColor"									"White"
 		"LabelText"									"%redteamname%"
@@ -253,7 +253,7 @@
 			"Visible"								"0"
 		}
 	}
-	"RedTeamScore"
+	"RedTeamScore"  // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"RedTeamScore"
@@ -262,8 +262,8 @@
 		"ZPos"										"4"
 		"Wide"										"100"
 		"Tall"										"35"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"Font"										"m0refont48"
 		"FGColor"									"White"
 		"LabelText"									"%redteamscore%"
@@ -276,7 +276,7 @@
 			"Visible"								"0"
 		}
 	}
-	"RedTeamPlayerCount"
+	"RedTeamPlayerCount"    // disabled
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"RedTeamPlayerCount"
@@ -284,8 +284,8 @@
 		"YPos"										"0"
 		"Wide"										"100"
 		"Tall"										"15"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"Font"										"m0refont11"
 		"FGColor"									"White"
 		"LabelText"									"%redteamplayercount%"
@@ -307,7 +307,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"ServerLabel"
-		"XPos"										"-5"
+		"XPos"										"-9"
 		"YPos"										"0"
 		"Wide"										"300"
 		"Tall"										"15"
@@ -319,7 +319,7 @@
 		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"BlueScoreBG"
+		"Pin_To_Sibling"							"HorizontalLine"
 		"Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 	}
@@ -327,20 +327,20 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"ServerTimeLeft"
-		"XPos"										"0"
-		"YPos"										"25"
+		"XPos"										"-4"
+		"YPos"										"1"
 		"Wide"										"f0"
-		"Tall"										"15"
+		"Tall"										"10"
 		"Visible"									"1"
 		"Enabled"									"1"
-		"Font"										"m0refont11Shadow"
+		"Font"										"ScoreboardVerySmall"
 		"FGColor"									"White"
 		"LabelText"									"%servertimeleft%"
-		"TextAlignment"								"center"
+		"TextAlignment"								"east"
 
-		"Pin_To_Sibling"							"WhiteBG"
-		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
-		"Pin_To_Sibling_Corner"						"PIN_CENTER_BOTTOM"
+		"Pin_To_Sibling"							"HorizontalLine"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMRIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
 		"if_mvm"
 		{
@@ -351,8 +351,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"Spectators"
-		"XPos"										"-5"
-		"YPos"										"0"
+		"XPos"										"-9"
+		"YPos"										"1"
 		"ZPos"										"4"
 		"Wide"										"f0"
 		"Tall"										"10"
@@ -361,12 +361,12 @@
 		"Font"										"ScoreboardVerySmall"
 		"FGColor"									"White"
 		"LabelText"									"%spectators%"
-		"TextAlignment"								"east"
+		"TextAlignment"								"west"
 		"alpha"										"255"
 
-		"Pin_To_Sibling"							"RedScoreBG"
-		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-		"Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+		"Pin_To_Sibling"							"HorizontalLine"
+		"Pin_Corner_To_Sibling"						"PIN_BOTTOMLEFT"
+		"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 	}
 	"SpectatorsInQueue"
 	{
@@ -429,7 +429,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"MapName"
-		"XPos"										"-15"
+		"XPos"										"-4"
 		"YPos"										"0"
 		"ZPos"										"3"
 		"Wide"										"f0"
@@ -442,8 +442,8 @@
 		"TextAlignment"								"east"
 
 		"Pin_To_Sibling"							"HorizontalLine"
-		"Pin_Corner_To_Sibling"						"PIN_BOTTOMRIGHT"
-		"Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
+		"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+		"Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
 	}
 	"LocalPlayerStatsPanel"
 	{
@@ -458,7 +458,7 @@
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
 
-		"K/D"
+		"K/D" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"K/D"
@@ -467,15 +467,15 @@
 			"ZPos"									"3"
 			"Wide"									"10"
 			"Tall"									"35"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
 			"FGColor"								"White"
 			"LabelText"								":"
 			"TextAlignment"							"center"
 		}
-		"Kills"
+		"Kills" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Kills"
@@ -484,7 +484,7 @@
 			"ZPos"									"3"
 			"Wide"									"100"
 			"Tall"									"35"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
@@ -496,7 +496,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPRIGHT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPLEFT"
 		}
-		"Deaths"
+		"Deaths" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Deaths"
@@ -505,7 +505,7 @@
 			"ZPos"									"3"
 			"Wide"									"100"
 			"Tall"									"35"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"m0refont48"
@@ -517,7 +517,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"AssistsLabel"
+		"AssistsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"AssistsLabel"
@@ -526,15 +526,15 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
 			"LabelText"								"#TF_ScoreBoard_AssistsLabel"
 			"TextAlignment"							"east"
 		}
-		"Assists"
+		"Assists" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Assists"
@@ -543,7 +543,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -555,7 +555,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"DestructionLabel"
+		"DestructionLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DestructionLabel"
@@ -564,8 +564,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -576,7 +576,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Destruction"
+		"Destruction" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Destruction"
@@ -585,7 +585,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -597,7 +597,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"CapturesLabel"
+		"CapturesLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"CapturesLabel"
@@ -606,8 +606,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -618,7 +618,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"Captures"
+		"Captures" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Captures"
@@ -627,7 +627,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -639,7 +639,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"DefensesLabel"
+		"DefensesLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DefensesLabel"
@@ -648,8 +648,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -660,7 +660,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Defenses"
+		"Defenses" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Defenses"
@@ -669,7 +669,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -681,7 +681,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"DominationLabel"
+		"DominationLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DominationLabel"
@@ -690,8 +690,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -702,7 +702,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"Domination"
+		"Domination" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Domination"
@@ -711,7 +711,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -723,7 +723,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"RevengeLabel"
+		"RevengeLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"RevengeLabel"
@@ -732,8 +732,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -744,7 +744,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Revenge"
+		"Revenge" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Revenge"
@@ -753,7 +753,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -765,7 +765,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"BackstabsLabel"
+		"BackstabsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"BackstabsLabel"
@@ -774,8 +774,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"LabelText"								"#TF_ScoreBoard_BackstabsLabel"
@@ -786,7 +786,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"Backstabs"
+		"Backstabs" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Backstabs"
@@ -795,7 +795,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -807,7 +807,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"InvulnLabel"
+		"InvulnLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"InvulnLabel"
@@ -816,8 +816,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -828,7 +828,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Invuln"
+		"Invuln" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Invuln"
@@ -837,7 +837,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -849,7 +849,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"TeleportsLabel"
+		"TeleportsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"TeleportsLabel"
@@ -858,8 +858,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -870,7 +870,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"Teleports"
+		"Teleports" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Teleports"
@@ -879,7 +879,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -891,7 +891,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"HeadshotsLabel"
+		"HeadshotsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"HeadshotsLabel"
@@ -900,8 +900,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -912,7 +912,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Headshots"
+		"Headshots" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Headshots"
@@ -921,7 +921,7 @@
 			"ZPos"									"3"
 			"Wide"									"20"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -933,7 +933,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"HealingLabel"
+		"HealingLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"HealingLabel"
@@ -942,8 +942,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -954,7 +954,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"Healing"
+		"Healing" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Healing"
@@ -963,7 +963,7 @@
 			"ZPos"									"3"
 			"Wide"									"35"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -975,7 +975,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"DamageLabel"
+		"DamageLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DamageLabel"
@@ -984,8 +984,8 @@
 			"ZPos"									"3"
 			"Wide"									"92"
 			"Tall"									"10"
-			"Visible"								"1"
-			"Enabled"								"1"
+			"Visible"								"0"
+			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
 			"FGColor"								"White"
@@ -996,7 +996,7 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 		}
-		"Damage"
+		"Damage" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"Damage"
@@ -1005,7 +1005,7 @@
 			"ZPos"									"3"
 			"Wide"									"35"
 			"Tall"									"10"
-			"Visible"								"1"
+			"Visible"								"0"
 			"Enabled"								"0"
 			"ProportionalToParent"					"1"
 			"Font"									"ScoreboardVerySmall"
@@ -1017,13 +1017,13 @@
 			"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
 			"Pin_To_Sibling_Corner"					"PIN_TOPRIGHT"
 		}
-		"DeathsLabel"
+		"DeathsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"DeathsLabel"
 			"Visible"								"0"
 		}
-		"KillsLabel"
+		"KillsLabel" // disabled
 		{
 			"ControlName"							"CExLabel"
 			"FieldName"								"KillsLabel"
