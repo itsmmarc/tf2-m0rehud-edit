@@ -40,7 +40,7 @@
 	//==================================================================================================================================================
 	// CROSS AND TEAM COLORED BORDER
 	//==================================================================================================================================================
-	"PlayerStatusHealthImageBG"
+	"PlayerStatusHealthImageBG" // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthImageBG"
@@ -60,11 +60,11 @@
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
-	"PlayerStatusHealthImage"
+	"PlayerStatusHealthImage"   // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthImage"
-		"XPos"										"-2"
+		"XPos"										"99999"
 		"YPos"										"-2"
 		"ZPos"										"4"
 		"Wide"										"60"
@@ -77,11 +77,11 @@
 
 		"Pin_To_Sibling"							"PlayerStatusHealthImageBG"
 	}
-	"CrossBG1"
+	"CrossBG1"  // disabled
 	{
 		"ControlName"								"CTFImagePanel"
 		"FieldName"									"CrossBG1"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"2"
 		"ZPos"										"-1"
 		"Wide"										"26"
@@ -103,11 +103,11 @@
 		"Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
-	"CrossBG2"
+	"CrossBG2"  // disabled
 	{
 		"ControlName"								"CTFImagePanel"
 		"FieldName"									"CrossBG2"
-		"XPos"										"2"
+		"XPos"										"99999"
 		"YPos"										"0"
 		"ZPos"										"-1"
 		"Wide"										"68"
@@ -133,11 +133,11 @@
 	//==================================================================================================================================================
 	// BUFF - HURT CROSS OR BOX
 	//==================================================================================================================================================
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage"  // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthBonusImage"
-		"XPos"										"c-205"
+		"XPos"										"99999"
 		"XPos_Minmode"								"c-108"
 		"YPos"										"c107"
 		"YPos_Minmode"								"c54"
@@ -151,7 +151,7 @@
 		"Image"										"../hud/health_over_bg"
 		"ScaleImage"								"1"
 	}
-	"PlayerStatusHealthBonusBG"     // overhealed health background
+	"PlayerStatusHealthBonusBG"     // overhealed health background // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthBonusBG"
@@ -175,16 +175,16 @@
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"PlayerStatusHealthDyingBG"
-		"XPos"										"c-45"
+		"XPos"										"cs-0.5"
 		"XPos_Minmode"								"c-120"
-		"YPos"										"c66"
+		"YPos"										"cs-0.5+105"
 		"YPos_Minmode"								"c42"
 		"ZPos"										"-4"
-		"Wide"										"90"
+		"Wide"										"60"
 		"Wide_Minmode"								"52"
-		"Tall"										"90"
+		"Tall"										"50"
 		"Tall_Minmode"								"52"
-		"Visible"									"0"
+		"Visible"									"1"
 		"Enabled"									"1"
 		"ScaleImage"								"1"
 		"Image"										"replay/thumbnails/health/health_box"
