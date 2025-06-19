@@ -502,11 +502,11 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "HUDOptions"
+        "HUDOptions" // disabled
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"HUDOptions"
-            "XPos"										"0"
+            "XPos"										"99999"
             "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"150"
@@ -672,7 +672,7 @@
             "Wide"										"150"
             "Tall"										"17"
 
-            "Pin_To_Sibling"							"HUDOptions"
+            "Pin_To_Sibling"							"Advanced"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -717,7 +717,7 @@
             "Tall"										"17"
             "Visible"									"0"
 
-            "Pin_To_Sibling"							"HUDOptions"
+            "Pin_To_Sibling"							"Advanced"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_BOTTOMLEFT"
 
@@ -1483,8 +1483,8 @@
                 "ZPos"									"1"
                 "Wide"									"16"
                 "Tall"									"16"
-                "Visible"								"1"
-                "Enabled"								"1"
+                "Visible"								"0"
+                "Enabled"								"0"
                 "ProportionalToParent"					"1"
                 "Font"									"Symbols18"
                 "TextAlignment"							"center"
