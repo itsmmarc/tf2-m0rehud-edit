@@ -1,4 +1,4 @@
-#base "../../../../cfg/m0rehud/m0re_menu_bg.txt"
+//#base "../../../../cfg/m0rehud/m0re_menu_bg.txt"
 #base "customizations/#customization_menu/hud_customization.res"
 #base "../dev/texture_preload.res"
 #base "../dev/reload_menu.res"

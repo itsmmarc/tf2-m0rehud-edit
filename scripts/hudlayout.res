@@ -1,16 +1,16 @@
 //=========================================================
 // STREAMER MODE
 //=========================================================
-#base "../../../cfg/m0rehud/m0re_layout_stream.txt"
+//#base "../../../cfg/m0rehud/m0re_layout_stream.txt"
 
 //=========================================================
 // CUSTOMIZATIONS
 //=========================================================
-#base "../../../cfg/m0rehud/m0re_health_gain.txt"
-#base "../../../cfg/m0rehud/m0re_damage_indicator.txt"
-#base "../../../cfg/m0rehud/m0re_scope_charge.txt"
+//#base "../../../cfg/m0rehud/m0re_health_gain.txt"
+//#base "../../../cfg/m0rehud/m0re_damage_indicator.txt"
+//#base "../../../cfg/m0rehud/m0re_scope_charge.txt"
 
-#base "../../../cfg/m0rehud/m0re_customization_menu.txt"
+//#base "../../../cfg/m0rehud/m0re_customization_menu.txt"
 #base "layouts/layout_customization.res"
 
 //=========================================================
@@ -21,7 +21,7 @@
 //=========================================================
 // TRANSPARENT VIEWMODELS
 //=========================================================
-#base "../../../cfg/m0rehud/m0re_transparent_viewmodels.txt"
+//#base "../../../cfg/m0rehud/m0re_transparent_viewmodels.txt"
 
 //=========================================================
 // DEFAULT LAYOUT
