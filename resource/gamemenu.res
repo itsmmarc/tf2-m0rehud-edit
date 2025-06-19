@@ -115,68 +115,92 @@
 		"tooltip"									"Achievements"
 		"OnlyInGame"								"1"
 	}
-	"HUD_Sound_Reload"
-	{
-		"label"										"%"
-		"Command"									"engine hud_reloadscheme; snd_restart"
-		"tooltip"									"Reload HUD and Sound"
-		"OnlyInGame"								"1"
-	}
-	"Fix_Visual_Glitches"
-	{
-		"label"										"D"
-		"Command"									"engine stop; ds_record"
-		"tooltip"									"Fix Visual Glitches"
-		"OnlyInGame"								"1"
-	}
     // Tempus Buttons
     "Restart"
 	{
-		"label"										"Restart"
+		"label"										"="
 		"Command"									"engine sm_restart"
 		"tooltip"									"Restart Run"
 		"OnlyInGame"								"1"
 	}
     "FullBright"
 	{
-		"label"										"FullBright"
+		"label"										"?"
 		"Command"									"engine toggle mat_fullbright"
 		"tooltip"									"Toggle Full Bright"
 		"OnlyInGame"								"1"
 	}
     "ShowTriggers"
 	{
-		"label"										"ShowTriggers"
+		"label"										"@"
 		"Command"									"engine sm_showtriggers"
 		"tooltip"									"Toggle Show Triggers"
 		"OnlyInGame"								"1"
 	}
+    "DrawClipBrushes"
+	{
+		"label"										"@"
+		"Command"									"engine toggle r_drawclipbrushes 0 2"
+		"tooltip"									"Toggle Clip Brushes"
+		"OnlyInGame"								"1"
+	}
     "TempusHud"
 	{
-		"label"										"TempusHud"
+		"label"										"'"
 		"Command"									"engine sm_hud"
 		"tooltip"									"Toggle Tempus Hud"
 		"OnlyInGame"								"1"
 	}
     "HSpeedo"
 	{
-		"label"										"HSpeedo"
+		"label"										"7"
 		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
 		"tooltip"									"Toggle Horizontal Speedo"
 		"OnlyInGame"								"1"
 	}
     "VSpeedo"
 	{
-		"label"										"VSpeedo"
+		"label"										"7"
 		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
 		"tooltip"									"Toggle Vertical Speedo"
 		"OnlyInGame"								"1"
 	}
     "ASpeedo"
 	{
-		"label"										"ASpeedo"
+		"label"										"7"
 		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
 		"tooltip"									"Toggle Absolute Speedo"
+		"OnlyInGame"								"1"
+	}
+    //====================================================================================================================================================
+	// TOOLS BAR - from m0rehud 6.5 classic
+	//====================================================================================================================================================
+	"Fix_Visual_Glitches"
+	{
+		"label"										"D"
+		"command"									"engine stop; ds_record"
+		"tooltip"									"Fix Visual Glitches"
+		"OnlyInGame"								"1"
+	}
+    "HUD_Sound_Reload"
+	{
+		"label"										"%"
+		"Command"									"engine hud_reloadscheme; snd_restart"
+		"tooltip"									"Reload HUD and Sound"
+		"OnlyInGame"								"1"
+	}
+	"Toggle_Netgraph"
+	{
+		"label"										"F"
+		"command"									"engine toggle net_graph 0 1"
+		"tooltip"									"Toggle NetGraph"
+		"OnlyInGame"								"1"
+	}
+	"Toggle_Chat"
+	{
+		"label"										"A"
+		"command"									"engine toggle hud_saytext_time 0 12"
+		"tooltip"									"Toggle Chat"
 		"OnlyInGame"								"1"
 	}
 

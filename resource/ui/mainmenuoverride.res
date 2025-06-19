@@ -907,17 +907,16 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "HUD_Sound_Reload"
+        "Fix_Visual_Glitches"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"HUD_Sound_Reload"
+            "FieldName"									"Fix_Visual_Glitches"
             "XPos"										"2"
             "YPos"										"0"
             "ZPos"										"15"
             "Wide"										"20"
             "Tall"										"17"
             "Visible"									"1"
-            "Command"									"OpenAchievementsDialog"
 
             "Pin_To_Sibling"							"Achievements"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
@@ -948,10 +947,10 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
-        "Fix_Visual_Glitches"
+        "HUD_Sound_Reload"
         {
             "ControlName"								"EditablePanel"
-            "FieldName"									"Fix_Visual_Glitches"
+            "FieldName"									"HUD_Sound_Reload"
             "XPos"										"2"
             "YPos"										"0"
             "ZPos"										"15"
@@ -959,7 +958,7 @@
             "Tall"										"17"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"HUD_Sound_Reload"
+            "Pin_To_Sibling"							"Fix_Visual_Glitches"
             "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
@@ -988,15 +987,16 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+
     //======================
-    // TEMPUS BUTTONS
+    // TEMPUS BUTTONS / Utilities
     //======================
         "TempusButtonAnchor"
         {
             "ControlName"								"ImagePanel"
             "FieldName"									"TempusButtonAnchor"
-            "XPos"										"rs1-60"
-            "YPos"										"40"
+            "XPos"										"cs-0.5"
+            "YPos"										"cs-1+100"
             "fillcolor"                                 "red"
             "Wide"										"1"
             "Tall"										"1"
@@ -1011,12 +1011,12 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"TempusButtonAnchor"
-            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling"							"HSpeedo"
+            "Pin_Corner_To_Sibling"						"PIN_TOPLEFT"
             "Pin_To_Sibling_Corner"						"PIN_TOPRIGHT"
 
             "SubButton"
@@ -1032,9 +1032,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "Tempus Hud"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1046,6 +1045,82 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "Toggle_Netgraph"
+        {
+            "ControlName"								"EditablePanel"
+            "fieldname"									"Toggle_Netgraph"
+            "xpos"										"0"
+            "ypos"										"0"
+            "zpos"										"16"
+            "wide"										"20"
+            "tall"										"20"
+
+            "Pin_To_Sibling"							"TempusHud"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "fieldName"								"SubButton"
+                "xpos"									"0"
+                "ypos"									"0"
+                "wide"									"f0"
+                "tall"									"f0"
+                "visible"								"1"
+                "enabled"								"1"
+                "proportionaltoparent"					"1"
+                "font"									"Symbols18"
+                "textAlignment"							"center"
+                "sound_depressed"						"UI/buttonclick.wav"
+                "sound_released"						"UI/buttonclickrelease.wav"
+
+                "paintbackground"						"0"
+                "paintborder"							"0"
+
+                "defaultFGColor_override"				"White"
+                "armedFGColor_override"					"Menu_Accent"
+                "depressedFGColor_override"				"Menu_Accent"
+            }
+        }
+        "Toggle_Chat"
+        {
+            "ControlName"								"EditablePanel"
+            "fieldname"									"Toggle_Chat"
+            "xpos"										"0"
+            "ypos"										"0"
+            "zpos"										"16"
+            "wide"										"20"
+            "tall"										"20"
+
+            "Pin_To_Sibling"							"Toggle_Netgraph"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "fieldName"								"SubButton"
+                "xpos"									"0"
+                "ypos"									"0"
+                "wide"									"f0"
+                "tall"									"f0"
+                "visible"								"1"
+                "enabled"								"1"
+                "proportionaltoparent"					"1"
+                "font"									"Symbols18"
+                "textAlignment"							"center"
+                "sound_depressed"						"UI/buttonclick.wav"
+                "sound_released"						"UI/buttonclickrelease.wav"
+
+                "paintbackground"						"0"
+                "paintborder"							"0"
+
+                "defaultFGColor_override"				"White"
+                "armedFGColor_override"					"Menu_Accent"
+                "depressedFGColor_override"				"Menu_Accent"
+            }
+        }
         "HSpeedo"
         {
             "ControlName"								"EditablePanel"
@@ -1053,13 +1128,13 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"TempusHud"
-            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+            "Pin_To_Sibling"							"TempusButtonAnchor"
+            "Pin_Corner_To_Sibling"						"PIN_CENTER_TOP"
+            "Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 
             "SubButton"
             {
@@ -1074,9 +1149,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "HSpeedo"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1095,8 +1169,8 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"HSpeedo"
@@ -1116,9 +1190,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "VSpeedo"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1137,8 +1210,8 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"VSpeedo"
@@ -1158,9 +1231,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "ASpeedo"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1180,11 +1252,11 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
-            "Pin_To_Sibling"							"TempusHud"
+            "Pin_To_Sibling"							"HSpeedo"
             "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
             "Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 
@@ -1201,9 +1273,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "Full Bright"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1222,8 +1293,8 @@
             "XPos"										"0"
             "YPos"										"0"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
+            "Wide"										"20"
+            "Tall"										"20"
             "Visible"									"1"
 
             "Pin_To_Sibling"							"FullBright"
@@ -1243,9 +1314,49 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "Show Triggers"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
+        "DrawClipBrushes"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"DrawClipBrushes"
+            "XPos"										"0"
+            "YPos"										"0"
+            "ZPos"										"15"
+            "Wide"										"20"
+            "Tall"										"20"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"ShowTriggers"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1258,16 +1369,16 @@
             }
         }
         
-        "Restart"
+        "Restart" // disabled
         {
             "ControlName"								"EditablePanel"
             "FieldName"									"Restart"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"99999"
             "ZPos"										"15"
-            "Wide"										"60"
-            "Tall"										"17"
-            "Visible"									"0"
+            "Wide"										"20"
+            "Tall"										"20"
+            "Visible"									"1"
 
             "Pin_To_Sibling"							"FullBright"
             "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -1286,9 +1397,8 @@
                 "ProportionalToParent"					"1"
                 "Use_Proportional_Insets"				"1"
                 "TextInsetX"							"0"
-                "Font"									"m0rehud58"
-                "LabelText"                             "Restart Run"
-                "TextAlignment"							"east"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
                 "Sound_Depressed"						"UI/buttonclick.wav"
                 
 
@@ -1299,7 +1409,7 @@
                 "ArmedFGColor_Override"					"Menu_Accent"
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
-        }
+        }	
 
 	//==================================================================================================================================================
 	// NOTIFICATIONS BUTTON
@@ -1309,7 +1419,7 @@
             "ControlName"								"EditablePanel"
             "FieldName"									"Notifications_ShowButtonPanel"
             "XPos"										"0"
-            "YPos"										"0"
+            "YPos"										"5"
             "ZPos"										"15"
             "Wide"										"100"
             "Tall"										"17"
