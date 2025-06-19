@@ -2,25 +2,21 @@
 
 "Resource/UI/Build_Menu/Base_Unavailable.res"
 {
-	"ItemNameLabel"
-	{
-		"Visible"									"0"
-	}
 	"CantBuildReason"
 	{
-		"Visible"									"1"
-		"LabelText"									"Unavailable"
+		"visible"									"1"
+		"labelText"									"#Hud_Menu_Build_Unavailable"
+	}
+	"BuildingIcon"
+	{
+		"visible"									"0"
 	}
 	"CostLabel"
 	{
-		"Visible"									"0"
-	}
-	"BuildingImage"	
-	{
-		"Visible"									"1"
+		"visible"									"0"
 	}
 	"NumberLabel"
 	{
-		"Visible"									"0"
+		"visible"									"0"
 	}
 }

@@ -4,10 +4,18 @@
 {
 	"ItemNameLabel"
 	{
-		"Visible"									"0"
+		"visible"									"1"
+	}
+	"BuildingIcon"
+	{
+		"visible"									"0"
 	}
 	"CantBuildReason"
 	{
-		"Visible"									"1"
+		"visible"									"1"
+	}
+	"NumberLabel"
+	{
+		"visible"									"0"
 	}
 }

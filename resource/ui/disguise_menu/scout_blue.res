@@ -2,8 +2,8 @@
 
 "Resource/UI/Disguise_Menu/Scout_Blue.res"
 {
-	"TitleBG"
+	"ClassIcon"
 	{
-		"Image"										"../hud/color_panel_blu"
+		"icon"										"hud_menu_scout_blu"
 	}
 }

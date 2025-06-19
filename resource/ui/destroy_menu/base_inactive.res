@@ -2,12 +2,20 @@
 
 "Resource/UI/Destroy_Menu/Base_Inactive.res"
 {
-	"ItemNameLabel"
+	"DestroyIcon"
 	{
-		"Visible"									"0"
+		"visible"									"0"
+	}
+	"BuildingIcon"
+	{
+		"visible"									"0"
 	}
 	"NotBuiltLabel"
 	{
-		"Visible"									"1"
+		"visible"									"1"
+	}
+	"NumberLabel"
+	{
+		"visible"									"0"
 	}
 }

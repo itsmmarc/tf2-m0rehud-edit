@@ -5,188 +5,174 @@
 	//====================================================================================================================================================
 	"Version"
 	{
-		"label"										"jump_m0re 1.0"
-		"Command"									"engine showconsole; echo jump_m0rehud by itsame, built on m0rehud by Hypnotize, created by m0re. Download new versions @ github.com/Hypnootize/m0rehud"
+		"label"										"m0re Classic"
+		"command"									"engine con_enable 1; toggleconsole"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
 	{
 		"label"										"Servers"
-		"Command"									"OpenServerBrowser"
+		"command"									"OpenServerBrowser"
 	}
 	"Create"
 	{
 		"label"										"+"
-		"Command"									"OpenCreateMultiplayerGameDialog"
+		"command"									"OpenCreateMultiplayerGameDialog"
 	}
 	"Items"
 	{
 		"label"										"Items"
-		"Command"									"engine open_charinfo"
+		"command"									"engine open_charinfo"
 	}
 	"Store"
 	{
 		"label"										"Store"
-		"Command"									"engine open_store"
+		"command"									"engine open_store"
 	}
 	"Settings"
 	{
-		"label"										"Settings"
-		"Command"									"OpenOptionsDialog"
+		"label"										"Options"
+		"command"									"OpenOptionsDialog"
 	}
 	"Advanced"
 	{
-		"label"										"Adv. Settings"
-		"Command"									"opentf2options"
-	}
-	"HUDOptions"
-	{
-		"label"										"HUD Options"
-        "tooltip"                                   "Warning! Likely broken"
-		"Command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
-	}
-	"Workshop"
-	{
-		"label"										"Workshop"
-		"Command"									"engine OpenSteamWorkshopDialog"
+		"label"										"Advanced"
+		"command"									"opentf2options"
 	}
 	"DemoUI"
 	{
 		"label"										"DemoUI"
-		"Command"									"engine demoui"
+		"command"									"engine demoui"
+	}
+	"Friends"
+	{
+		"label"										"Friends"
+		"command"									"engine cl_mainmenu_safemode 1"
 	}
 	"Contracker"
 	{
 		"label"										"Contracker"
-		"Command"									"questlog"
+		"command"									"questlog"
+	}
+	"Workshop"
+	{
+		"label"										"Workshop"
+		"command"									"engine OpenSteamWorkshopDialog"
 	}
 	"Quit"
 	{
 		"label"										"Quit"
-		"Command"									"engine replay_confirmquit"
+		"command"									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
-	}
-
-	"Friends"
-	{
-		"label"										"k"
-		"Command"									"motd_show"
-		"tooltip"									"Friends List"
-	}
-	"Quickplay"
-	{
-		"label"										"n"
-		"Command"									"engine replay_reloadbrowser"
 	}
 
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
+	"Scoreboard"
+	{
+		"label"										"Scoreboard"
+		"command"									"engine toggle cl_hud_minmode"
+		"OnlyInGame"								"1"
+	}
 	"Disconnect"
 	{
 		"label"										"Disconnect"
-		"Command"									"engine disconnect"
+		"command"									"engine disconnect"
 		"OnlyInGame"								"1"
 	}
 	"QuitGame"
 	{
 		"label"										"Quit"
-		"Command"									"engine replay_confirmquit"
+		"command"									"engine replay_confirmquit"
 		"OnlyInGame"								"1"
 	}
 	"Vote"
 	{
 		"label"										"M"
-		"Command"									"callvote"
+		"command"									"callvote"
 		"tooltip"									"Call a Vote"
 		"OnlyInGame"								"1"
 	}
 	"Mute"
 	{
 		"label"										"L"
-		"Command"									"OpenMutePlayerDialog"
+		"command"									"OpenMutePlayerDialog"
 		"tooltip"									"Mute a Player"
+		"OnlyInGame"								"1"
+	}
+	"Report"
+	{
+		"label"										"K"
+		"command"									"OpenReportPlayerDialog"
+		"tooltip"									"Report a Player"
 		"OnlyInGame"								"1"
 	}
 	"Achievements"
 	{
 		"label"										"J"
-		"Command"									"OpenAchievementsDialog"
+		"command"									"OpenAchievementsDialog"
 		"tooltip"									"Achievements"
-		"OnlyInGame"								"1"
-	}
-	"HUD_Sound_Reload"
-	{
-		"label"										"%"
-		"Command"									"engine hud_reloadscheme; snd_restart"
-		"tooltip"									"Reload HUD and Sound"
-		"OnlyInGame"								"1"
-	}
-	"Fix_Visual_Glitches"
-	{
-		"label"										"D"
-		"Command"									"engine stop; ds_record"
-		"tooltip"									"Fix Visual Glitches"
-		"OnlyInGame"								"1"
-	}
-    // Tempus Buttons
-    "Restart"
-	{
-		"label"										"Restart"
-		"Command"									"engine sm_restart"
-		"tooltip"									"Restart Run"
-		"OnlyInGame"								"1"
-	}
-    "FullBright"
-	{
-		"label"										"FullBright"
-		"Command"									"engine toggle mat_fullbright"
-		"tooltip"									"Toggle Full Bright"
-		"OnlyInGame"								"1"
-	}
-    "ShowTriggers"
-	{
-		"label"										"ShowTriggers"
-		"Command"									"engine sm_showtriggers"
-		"tooltip"									"Toggle Show Triggers"
-		"OnlyInGame"								"1"
-	}
-    "TempusHud"
-	{
-		"label"										"TempusHud"
-		"Command"									"engine sm_hud"
-		"tooltip"									"Toggle Tempus Hud"
-		"OnlyInGame"								"1"
-	}
-    "HSpeedo"
-	{
-		"label"										"HSpeedo"
-		"Command"									"engine sm_hspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
-		"tooltip"									"Toggle Horizontal Speedo"
-		"OnlyInGame"								"1"
-	}
-    "VSpeedo"
-	{
-		"label"										"VSpeedo"
-		"Command"									"engine sm_vspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
-		"tooltip"									"Toggle Vertical Speedo"
-		"OnlyInGame"								"1"
-	}
-    "ASpeedo"
-	{
-		"label"										"ASpeedo"
-		"Command"									"engine sm_aspeedo;sm_speedo_yoff 0.55;sm_speedocustom 255 255 255"
-		"tooltip"									"Toggle Absolute Speedo"
 		"OnlyInGame"								"1"
 	}
 
 	//====================================================================================================================================================
-	// MENU BG
+	// TOOLS BAR
 	//====================================================================================================================================================
-	"Custom_Background"
+	"Fix Invisible Players"
 	{
-		"label"										""
-		"Command"									"engine"
-		"OnlyAtMenu"								"1"
+		"label"										"D"
+		"command"									"engine stop; record fix"
+		"tooltip"									"Fix Invisible Players"
+		"OnlyInGame"								"1"
+	}
+	"Reload Sound"
+	{
+		"label"										"B"
+		"command"									"engine snd_restart"
+		"tooltip"									"Reload Sound"
+		"OnlyInGame"								"1"
+	}
+	"Reload Hud"
+	{
+		"label"										"C"
+		"command"									"engine hud_reloadscheme"
+		"tooltip"									"Reload Hud"
+		"OnlyInGame"								"1"
+	}
+	"Toggle Netgraph"
+	{
+		"label"										"F"
+		"command"									"engine toggle net_graph 0 1"
+		"tooltip"									"Enable/Disable NetGraph"
+		"OnlyInGame"								"1"
+	}
+	"Toggle Contracts"
+	{
+		"label"										"G"
+		"command"									"engine toggle tf_contract_progress_show 0 1"
+		"tooltip"									"Enable/Disable Contracts"
+		"OnlyInGame"								"1"
+	}
+	"Enable Captions"
+	{
+		"label"										"E"
+		"command"									"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+		"tooltip"									"Enable CloseCaptions"
+		"OnlyInGame"								"1"
+	}
+	"Disable Captions"
+	{
+		"label"										"E"
+		"command"									"engine closecaption 0; cc_predisplay_time 0"
+		"tooltip"									"Disable CloseCaptions"
+		"OnlyInGame"								"1"
+	}
+	"Toggle Chat"
+	{
+		"label"										"A"
+		"command"									"engine toggle hud_saytext_time 0 12"
+		"tooltip"									"Enable/Disable Chat"
+		"OnlyInGame"								"1"
 	}
 }

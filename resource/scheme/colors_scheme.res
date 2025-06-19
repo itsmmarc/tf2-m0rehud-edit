@@ -2,117 +2,50 @@
 {
 	"Colors"
 	{
-		//==================================================================================
-		// COLOR CUSTOMIZATION
-		//==================================================================================
-		// HEALTH
-		//----------------------------------------------------------------------------------
-		"Health_Numbers"									"255 255 255 255"
+		//=========================================================================================
+		// M0RE HUD COLOR CUSTOMIZATION
+		//=========================================================================================
+		
+		"Health Numbers"									"255 255 255 255"
 
-		"Health_Buff"										"0 185 0 255"
-		"Health_Shadow_Buff"								"0 185 0 255"
-		"Health_Buff_Target"								"0 215 0 255"
-		"Health_Buff_Spectator"								"0 215 0 255"
-		"Health_Buff_Killer"								"0 215 0 255"
+		"Health Buff"										"0 185 0 255"
+		"Health Buff Target"								"0 215 0 255"
+		"Health Buff Spec"									"0 215 0 255"
+		"Health Buff Killer"								"0 215 0 255"
 
-		"Health_Hurt"										"255 0 0 255"
-		"Health_Shadow_Hurt"								"255 0 0 255"
-		"Health_Hurt_Target"								"255 255 255 255"
-		"Health_Hurt_Spectator"								"255 0 0 255"
-		"Health_Hurt_Killer"								"255 0 0 255"
+		"Health Hurt"										"255 0 0 255"
+		"Health Hurt Target"								"255 255 255 255"
+		"Health Hurt Spec"									"255 0 0 255"
+		"Health Hurt Killer"								"255 0 0 255"
 
-		//----------------------------------------------------------------------------------
-		// AMMO
-		//----------------------------------------------------------------------------------
-		"Ammo_In_Clip"										"255 255 255 255"
-		"Ammo_In_Reserve"									"255 255 255 255"
+		"Ammo In Clip"										"255 255 255 255"
+		"Ammo In Reserve"									"255 255 255 255"
+		"Ammo No Clip"										"255 255 255 255"
 
-		"Ammo_In_Clip_Low"									"255 0 0 255"
-		"Ammo_In_Clip_Shadow_Low"							"255 0 0 255"
-		"Ammo_In_Reserve_Low"								"255 0 0 255"
-		"Ammo_In_Reserve_Shadow_Low"						"255 0 0 255"
+		"Ammo In Clip Low"									"255 0 0 255"
+		"Ammo In Reserve Low"								"255 0 0 255"
+		"Ammo No Clip Low"									"255 0 0 255"
 
-		//----------------------------------------------------------------------------------
-		// UBER
-		//----------------------------------------------------------------------------------
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge_Full"									"255 0 127 255"
-		"Ubercharge_Shadow_Full"							"255 0 127 255"
+		"Ubercharge Full"									"255 0 127 255"
 
-		//----------------------------------------------------------------------------------
-		// SHADOWS
-		//----------------------------------------------------------------------------------
-		"Main_Shadow"										"0 0 0 255"
-		"Extra_Health_Shadow"								"0 0 0 255"
-		"Extra_Uber_Shadow"									"0 0 0 255"
+		"Extra Shadow"										"0 0 0 255"
 
-		//----------------------------------------------------------------------------------
-		// +HEALTH AND DAMAGE
-		//----------------------------------------------------------------------------------
-		"Health_Gained"										"0 255 0 255"
-		"Health_Lost"										"255 0 0 255"
+		"Heal Numbers"										"0 255 0 255"
+		"Last Damage Done"									"255 255 255 255"
 
-		"Heal_Numbers"										"0 255 0 255"
-		"Last_Damage_Done"									"255 255 255 255"
+		"Menu Labels"										"255 0 127 255"
+		"Class Selection"									"0 215 0 255"
 
-		//----------------------------------------------------------------------------------
-		// MENUS
-		//----------------------------------------------------------------------------------
-		"Menu_Accent"										"255 0 127 255"
-		"Class_Selection"									"0 200 200 255"
-		
-		//BACKGROUNDS
-		"Background_Main"									"46 43 42 255"
-		"Background_Dark"									"28 26 25 255"
-		"Background_Darkest"								"18 15 14 255"
-		"Background_Bright"									"66 63 61 255"
-		
-		//BUTTONS
-		"Button_Bright"										"66 63 61 255"
-		"Button_Dark"										"28 26 25 255"
-		"Button_Hover"										"104 101 100 255"
-		"Button_Red"										"190 60 60 255"
-		"Button_Red_Hover"									"120 25 25 255"
-		"Button_Green"										"75 105 35 255"
-		"Button_Green_Hover"								"55 75 25 255"
+		"m0reBlue"											"0 120 201 255"
+		"m0reRed"											"235 58 58 255"
 
-
-		//----------------------------------------------------------------------------------
-		// CROSSHAIRS
-		//----------------------------------------------------------------------------------
 		"Crosshair"											"255 255 255 255"
-		"Crosshair_Flash"									"255 0 0 255"
-		"Hitmarker"											"255 0 0 255"
+		"Crosshair Flash"									"255 0 0 255"
 
-		//==================================================================================
-		// M0RE COLOR SCALE PRESETS
-		//==================================================================================
-		"m0reWhite"											"255 255 255 255"
-		"m0reTan"											"235 226 202 255"
-		"m0reGrey"											"150 152 154 255"
-		"m0reBlack"											"0 0 0 255"
-		"m0reMaroon"										"150 50 50 255"
-		"m0reRed"											"255 0 0 255"
-		"m0reSalmon"										"250 125 115 255"
-		"m0reOrange"										"255 155 75 255"
-		"m0reYellow"										"255 190 0 255"
-		"m0reOlive"											"180 200 100 255"
-		"m0reGreen"											"0 215 0 255"
-		"m0reForest"										"0 135 55 255"
-		"m0reTeal"											"100 180 170 255"
-		"m0reCyan"											"0 195 200 255"
-		"m0reBlue"											"0 170 255 255"
-		"m0reNavy"											"90 120 200 255"
-		"m0rePurple"										"150 50 235 255"
-		"m0reViolet"										"190 150 210 255"
-		"m0rePink"											"250 185 240 255"
-		"m0reMagenta"										"255 0 127 255"
-
-
-
-		//==================================================================================
+		//=========================================================================================
 		// DEFAULT TF2 COLORS
-		//==================================================================================
+		//=========================================================================================
 
 		"Orange"											"178 82 22 255"
 		"OrangeDim"											"178 82 22 120"
@@ -149,26 +82,24 @@
 		"GreenSolid"										"76 107 34 255"
 
 		"Black"												"0 0 0 255"
-		"TransparentBlack"									"0 0 0 200"
-		"TransparentMediumBlack"							"0 0 0 150"
-		"TransparentLightBlack"								"0 0 0 100"
-		"TransparentLightestBlack"							"0 0 0 50"
-		"FooterBGBlack"										"35 32 33 255"
+		"TransparentBlack"									"0 0 0 196"
+		"TransparentLightBlack"								"0 0 0 90"
+		"FooterBGBlack"										"52 48 55 255"
 
 		"HUDBlueTeam"										"90 122 143 255"
 		"HUDRedTeam"										"189 59 61 255"
 		"HUDSpectator"										"124 124 124 127"
-		"HUDBlueTeamSolid"									"0 120 201 255"
-		"HUDRedTeamSolid"									"235 58 58 255"
+		"HUDBlueTeamSolid"									"90 122 143 255"
+		"HUDRedTeamSolid"									"189 59 61 255"
 		"HUDDeathWarning"									"255 0 0 255"
 		"HudWhite"											"255 255 255 255"
-		"HudOffWhite"										"255 255 255 255"
+		"HudOffWhite"										"200 187 161 255"
 		"HudBlack"											"65 65 65 255"
 		"ProgressBarBlue"									"90 122 143 255"
 
 		"CreditsGreen"										"94 150 49 255"
 
-		"Gray"												"178 175 174 255"
+		"Gray"												"178 178 178 255"
 
 		"Blank"												"0 0 0 0"
 		"ForTesting"										"255 0 0 32"
@@ -190,7 +121,7 @@
 
 		"HudTrainingHint"									"212 160 23 255"
 
-		"TanDark"											"178 175 174 255"
+		"TanDark"											"117 107 94 255"
 		"TanLight"											"255 255 255 255"
 		"TanDarker"											"46 43 42 255"
 
@@ -198,7 +129,7 @@
 		"StoreGreen"										"76 107 34 255"
 
 		"LowHealthRed"										"255 0 0 255"
-		"ProgressOffWhite"									"255 255 255 255"
+		"ProgressOffWhite"									"251 235 202 255"
 		"ProgressBackground"								"250 234 201 51"
 		"HealthBgGrey"										"72 71 69 255"
 
@@ -207,7 +138,7 @@
 		"LabelDark"											"48 43 42 255"
 		"LabelTransparent"									"109 96 80 180"
 
-		"BuildMenuActive"									"255 255 255 255"
+		"BuildMenuActive"									"248 231 198 255"
 
 		"DisguiseMenuIconRed"								"192 56 63 255"
 		"DisguiseMenuIconBlue"								"92 128 166 255"
@@ -220,7 +151,7 @@
 
 		"HTMLBackground"									"95 92 101 255"
 
-		"ItemAttribLevel"									"178 175 174 255"
+		"ItemAttribLevel"									"117 107 94 255"
 		"ItemAttribNeutral"									"255 255 255 255"
 		"ItemAttribPositive"								"153 204 255 255"
 		"ItemAttribNegative"								"255 64 64 255"
@@ -231,7 +162,7 @@
 		"ItemIsotope"										"225 255 15 255"
 		"ItemBundleItem"									"149 175 12 255"
 		"ItemLimitedUse"									"0 160 0 255"
-		"ItemFlags"											"178 175 174 255"
+		"ItemFlags"											"117 107 94 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
 		"QualityColorNormal"								"178 178 178 255"
@@ -288,7 +219,7 @@
 
 		"LightRed"											"200 80 60 255"
 		"LighterRed"										"220 100 80 255"
-		"LighterDarkBrown"									"75 68 60 255"
+		"LighterDarkBrown"									"59 54 48 255"
 		"DarkBrown"											"41 37 38 255"
 
 		"UpgradeDefaultFg"									"87 82 74 255"
@@ -302,188 +233,187 @@
 		"UpgradeDisabledFg"									"64 59 52 255"
 		"UpgradeDisabledBg"									"79 77 68 255"
 	}
+
 	"BaseSettings"
 	{
-		"ReplayBrowser.BGColor"								"DarkBrown"
-		"ReplayBrowser.Details.TitleEdit.Carat.FGColor"		"LightRed"
-		"ReplayBrowser.Button.ArmedBGColor"					"TFOrange"
-		"ReplayBrowser.Button.DepressedBGColor"				"TFOrange"
-		"ReplayBrowser.CollectionTitle.FGColor"				"LightRed"
-		"ReplayBrowser.Warning.FGColor"						"White"
-		"ReplayBrowser.ScrollBar.SliderButton.FGColor"		"TransparentYellow"
-		"ReplayBrowser.Search.BGColor"						"TanDark"
-		"ReplayBrowser.Search.FGColor"						"White"
+		"ReplayBrowser.BgColor"								"DarkBrown"
+		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"LightRed"
+		"ReplayBrowser.Button.ArmedBgColor"					"TFOrange"
+		"ReplayBrowser.Button.DepressedBgColor"				"TFOrange"
+		"ReplayBrowser.CollectionTitle.FgColor"				"LightRed"
+		"ReplayBrowser.Warning.FgColor"						"White"
+		"ReplayBrowser.ScrollBar.SliderButton.FgColor"		"TransparentYellow"
+		"ReplayBrowser.Search.BgColor"						"TanDark"
+		"ReplayBrowser.Search.FgColor"						"White"
 
-		"Replay.RenderDialog.BGColor"						"LighterDarkBrown"
+		"Replay.RenderDialog.BgColor"						"LighterDarkBrown"
 
-		"Econ.Dialog.BGColor"								"Blank"
-		"Econ.Button.BGColor"								"Button_Bright"
-		"Econ.Button.FGColor"								"White"
-		"Econ.Button.ArmedBGColor"							"Button_Hover"
-		"Econ.Button.ArmedFGColor"							"White"
-		"Econ.Button.DepressedBGColor"						"Button_Hover"
-		"Econ.Button.DepressedFGColor"						"Black"
+		"Econ.Dialog.BgColor"								"Blank"
+		"Econ.Button.BgColor"								"TanDark"
+		"Econ.Button.FgColor"								"TanLight"
+		"Econ.Button.ArmedBgColor"							"TFOrange"
+		"Econ.Button.ArmedFgColor"							"TanLight"
+		"Econ.Button.DepressedBgColor"						"TFOrange"
+		"Econ.Button.DepressedFgColor"						"Black"
 
-		"Econ.Button.PresetDefaultColorFg"					"White"
-		"Econ.Button.PresetArmedColorFg"					"White"
-		"Econ.Button.PresetDepressedColorFg"				"White"
+		"Econ.Button.PresetDefaultColorFg"					"TanLight"
+		"Econ.Button.PresetArmedColorFg"					"TanLight"
+		"Econ.Button.PresetDepressedColorFg"				"TanLight"
 
-		"Econ.Button.PresetDefaultColorBg"					"Menu_Accent"
-		"Econ.Button.PresetArmedColorBg"					"Menu_Accent"
-		"Econ.Button.PresetDepressedColorBg"				"Menu_Accent"
+		"Econ.Button.PresetDefaultColorBg"					"LighterRed"
+		"Econ.Button.PresetArmedColorBg"					"LightRed"
+		"Econ.Button.PresetDepressedColorBg"				"TFOrange"
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
 		"Border.Selection"									"Gray"
 
-		"Button.TextColor"									"White"
-		"Button.BGColor"									"Button_Bright"
-		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBGColor"								"Button_Hover"
-		"Button.SelectedTextColor"							"White"
-		"Button.SelectedBGColor"							"Button_Hover"
+		"Button.TextColor"									"TanLight"
+		"Button.BgColor"									"TanDark"
+		"Button.ArmedTextColor"								"TanLight"
+		"Button.ArmedBgColor"								"TFOrange"
+		"Button.SelectedTextColor"							"TanLight"
+		"Button.SelectedBgColor"							"TFOrange"
 		"Button.DepressedTextColor"							"Black"
-		"Button.DepressedBGColor"							"Button_Hover"
+		"Button.DepressedBgColor"							"TFOrange"
 
-		"CheckButton.TextColor"								"Gray"
-		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BGColor"								"TransparentBlack"
-		"CheckButton.Border1"								"White"
-		"CheckButton.Border2"								"White"
-		"CheckButton.Check"									"White"
-		"CheckButton.HighlightFGColor"						"White"
+		"CheckButton.TextColor"								"Yellow"
+		"CheckButton.SelectedTextColor"						"Yellow"
+		"CheckButton.BgColor"								"TransparentBlack"
+		"CheckButton.Border1"								"Yellow"
+		"CheckButton.Border2"								"Yellow"
+		"CheckButton.Check"									"Yellow"
+		"CheckButton.HighlightFgColor"						"Yellow"
 
-		"ComboBoxButton.ArrowColor"							"White"
-		"ComboBoxButton.ArmedArrowColor"					"White"
-		"ComboBoxButton.BGColor"							"Blank"
-		"ComboBoxButton.DisabledBGColor"					"Blank"
+		"ComboBoxButton.ArrowColor"							"TanLight"
+		"ComboBoxButton.ArmedArrowColor"					"TanLight"
+		"ComboBoxButton.BgColor"							"Blank"
+		"ComboBoxButton.DisabledBgColor"					"Blank"
 
-		"Frame.BGColor"										"TransparentBlack"
-		"Frame.OutOfFocusBGColor"							"TransparentBlack"
+		"Frame.BgColor"										"TransparentBlack"
+		"Frame.OutOfFocusBgColor"							"TransparentBlack"
 		"Frame.FocusTransitionEffectTime"					"0.0"
 		"Frame.TransitionEffectTime"						"0.0"
 		"Frame.AutoSnapRange"								"0"
 		"FrameGrip.Color1"									"Blank"
 		"FrameGrip.Color2"									"Blank"
-		"FrameTitleButton.FGColor"							"Blank"
-		"FrameTitleButton.BGColor"							"Blank"
-		"FrameTitleButton.DisabledFGColor"					"Blank"
-		"FrameTitleButton.DisabledBGColor"					"Blank"
-		"FrameSystemButton.FGColor"							"Blank"
-		"FrameSystemButton.BGColor"							"Blank"
+		"FrameTitleButton.FgColor"							"Blank"
+		"FrameTitleButton.BgColor"							"Blank"
+		"FrameTitleButton.DisabledFgColor"					"Blank"
+		"FrameTitleButton.DisabledBgColor"					"Blank"
+		"FrameSystemButton.FgColor"							"Blank"
+		"FrameSystemButton.BgColor"							"Blank"
 		"FrameSystemButton.Icon"							""
 		"FrameSystemButton.DisabledIcon"					""
-		"FrameTitleBar.TextColor"							"White"
-		"FrameTitleBar.BGColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"Gray"
-		"FrameTitleBar.DisabledBGColor"						"Blank"
+		"FrameTitleBar.TextColor"							"Orange"
+		"FrameTitleBar.BgColor"								"Blank"
+		"FrameTitleBar.DisabledTextColor"					"Orange"
+		"FrameTitleBar.DisabledBgColor"						"Blank"
 
-		"GraphPanel.FGColor"								"Orange"
-		"GraphPanel.BGColor"								"TransparentBlack"
+		"GraphPanel.FgColor"								"Orange"
+		"GraphPanel.BgColor"								"TransparentBlack"
 
 		"Label.TextDullColor"								"TanDark"
-		"Label.TextColor"									"White"
-		"Label.TextBrightColor"								"White"
+		"Label.TextColor"									"TanLight"
+		"Label.TextBrightColor"								"TanLight"
 		"Label.SelectedTextColor"							"White"
-		"Label.BGColor"										"Blank"
-		"Label.DisabledFGColor1"							"Blank"
-		"Label.DisabledFGColor2"							"Black"
+		"Label.BgColor"										"Blank"
+		"Label.DisabledFgColor1"							"Blank"
+		"Label.DisabledFgColor2"							"Black"
 
-		"ListPanel.TextColor"								"White"
-		"ListPanel.BGColor"									"TransparentBlack"
+		"ListPanel.TextColor"								"Orange"
+		"ListPanel.BgColor"									"TransparentBlack"
 		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBGColor"							"Gray"
-		"ListPanel.SelectedOutOfFocusBGColor"				"Gray"
+		"ListPanel.SelectedBgColor"							"Red"
+		"ListPanel.SelectedOutOfFocusBgColor"				"Red"
 		"ListPanel.EmptyListInfoTextColor"					"Orange"
 
-		"Menu.TextColor"									"White"
-		"Menu.BGColor"										"TransparentBlack"
+		"Menu.TextColor"									"TanLight"
+		"Menu.BgColor"										"TransparentBlack"
 		"Menu.ArmedTextColor"								"TanDark"
-		"Menu.ArmedBGColor"									"White"
+		"Menu.ArmedBgColor"									"TanLight"
 		"Menu.TextInset"									"6"
 
-		"Chat.TypingText"									"White"
+		"Chat.TypingText"									"Orange"
 
-		"Panel.FGColor"										"White"
-		"Panel.BGColor"										"Blank"
+		"Panel.FgColor"										"Gray"
+		"Panel.BgColor"										"Blank"
 
-		"HTML.BGColor"										"Blank"
+		"HTML.BgColor"										"Blank"
 
-		"ProgressBar.FGColor"								"White"
-		"ProgressBar.BGColor"								"TransparentLightestBlack"
+		"ProgressBar.FgColor"								"White"
+		"ProgressBar.BgColor"								"0 0 0 50"
 
-		"CircularProgressBar.FGColor"						"White"
-		"CircularProgressBar.BGColor"						"White"
+		"CircularProgressBar.FgColor"						"White"
+		"CircularProgressBar.BgColor"						"White"
 
-		"BuildingHealthBar.BGColor"							"HealthBgGrey"
-		"BuildingHealthBar.Health"							"White"
-		"BuildingHealthBar.LowHealth"						"Red"
+		"BuildingHealthBar.BgColor"							"HealthBgGrey"
+		"BuildingHealthBar.Health"							"ProgressOffWhite"
+		"BuildingHealthBar.LowHealth"						"LowHealthRed"
 
-		"PropertySheet.TextColor"							"White"
-		"PropertySheet.SelectedTextColor"					"Gray"
+		"PropertySheet.TextColor"							"Orange"
+		"PropertySheet.SelectedTextColor"					"Orange"
 		"PropertySheet.TransitionEffectTime"				"0.25"
-		"RadioButton.TextColor"								"Gray"
-		"RadioButton.SelectedTextColor"						"White"
-		"RadioButton.ArmedTextColor"						"White"
+		"RadioButton.TextColor"								"Orange"
+		"RadioButton.SelectedTextColor"						"Orange"
 
-		"RichText.TextColor"								"White"
-		"RichText.BGColor"									"Blank"
-		"RichText.SelectedTextColor"						"Black"
-		"RichText.SelectedBGColor"							"Gray"
+		"RichText.TextColor"								"Gray"
+		"RichText.BgColor"									"Blank"
+		"RichText.SelectedTextColor"						"Gray"
+		"RichText.SelectedBgColor"							"Red"
 
-		"ScrollBar.Wide"									"10"
-		"ScrollBarButton.FGColor"							"Blank"
-		"ScrollBarButton.BGColor"							"Blank"
-		"ScrollBarButton.ArmedFGColor"						"Blank"
-		"ScrollBarButton.ArmedBGColor"						"Blank"
-		"ScrollBarButton.DepressedFGColor"					"Blank"
-		"ScrollBarButton.DepressedBGColor"					"Blank"
+		"ScrollBarButton.FgColor"							"Gray"
+		"ScrollBarButton.BgColor"							"Blank"
+		"ScrollBarButton.ArmedFgColor"						"Gray"
+		"ScrollBarButton.ArmedBgColor"						"Blank"
+		"ScrollBarButton.DepressedFgColor"					"Black"
+		"ScrollBarButton.DepressedBgColor"					"Blank"
 
-		"ScrollBarSlider.FGColor"							"Gray"
-		"ScrollBarSlider.BGColor"							"Blank"
+		"ScrollBarSlider.FgColor"							"Gray"
+		"ScrollBarSlider.BgColor"							"Blank"
 
-		"SectionedListPanel.HeaderTextColor"				"White"
-		"SectionedListPanel.HeaderBGColor"					"Blank"
+		"SectionedListPanel.HeaderTextColor"				"Orange"
+		"SectionedListPanel.HeaderBgColor"					"Blank"
 		"SectionedListPanel.DividerColor"					"Black"
-		"SectionedListPanel.TextColor"						"White"
-		"SectionedListPanel.BrightTextColor"				"White"
-		"SectionedListPanel.BGColor"						"TransparentLightBlack"
+		"SectionedListPanel.TextColor"						"Orange"
+		"SectionedListPanel.BrightTextColor"				"Orange"
+		"SectionedListPanel.BgColor"						"TransparentLightBlack"
 		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBGColor"				"Gray"
+		"SectionedListPanel.SelectedBgColor"				"Red"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBGColor"		"255 255 255 32"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 255 255 32"
 
-		"Slider.NobColor"									"White"
-		"Slider.TextColor"									"Gray"
-		"Slider.TrackColor"									"Black"
-		"Slider.DisabledTextColor1"							"Gray"
-		"Slider.DisabledTextColor2"							"Black"
+		"Slider.NobColor"									"108 108 108 255"
+		"Slider.TextColor"									"127 140 127 255"
+		"Slider.TrackColor"									"31 31 31 255"
+		"Slider.DisabledTextColor1"							"117 117 117 255"
+		"Slider.DisabledTextColor2"							"30 30 30 255"
 
 		"TextEntry.TextColor"								"Gray"
-		"TextEntry.BGColor"									"Blank"
+		"TextEntry.BgColor"									"Blank"
 		"TextEntry.CursorColor"								"Gray"
 		"TextEntry.DisabledTextColor"						"Gray"
-		"TextEntry.DisabledBGColor"							"Blank"
-		"TextEntry.SelectedTextColor"						"White"
-		"TextEntry.SelectedBGColor"							"Gray"
-		"TextEntry.OutOfFocusSelectedBGColor"				"Blank"
+		"TextEntry.DisabledBgColor"							"Blank"
+		"TextEntry.SelectedTextColor"						"TanLight"
+		"TextEntry.SelectedBgColor"							"Gray"
+		"TextEntry.OutOfFocusSelectedBgColor"				"Blank"
 		"TextEntry.FocusEdgeColor"							"Blank"
 
-		"ToggleButton.SelectedTextColor"					"White"
+		"ToggleButton.SelectedTextColor"					"Orange"
 
 		"Tooltip.TextColor"									"TransparentBlack"
-		"Tooltip.BGColor"									"Red"
+		"Tooltip.BgColor"									"Red"
 
-		"TreeView.BGColor"									"TransparentBlack"
+		"TreeView.BgColor"									"TransparentBlack"
 
-		"WizardSubPanel.BGColor"							"Blank"
+		"WizardSubPanel.BgColor"							"Blank"
 
 		"TimerProgress.Active"								"HudTimerProgressActive"
 		"TimerProgress.InActive"							"HudTimerProgressInActive"
 		"TimerProgress.Warning"								"HudTimerProgressWarning"
 
-		"HudObjectives.FGColor"								"HudPanelForeground"
-		"HudObjectives.BGColor"								"HudPanelBackground"
+		"HudObjectives.FgColor"								"HudPanelForeground"
+		"HudObjectives.BgColor"								"HudPanelBackground"
 		"HudObjectives.BorderColor"							"HudPanelBorder"
 
 		"HudProgressBar.Active"								"HudProgressBarActive"
@@ -494,32 +424,32 @@
 		"HudCaptureProgressBar.Active"						"HudProgressBarActive"
 		"HudCaptureProgressBar.InActive"					"HudProgressBarInActive"
 
-		"FGColor"											"White"
-		"BGColor"											"0 0 0 0"
+		"FgColor"											"Orange"
+		"BgColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"
-		"TeamSpec"											"HUDSpectator"
-		"TeamRed"											"HUDRedTeam"
-		"TeamBlue"											"HUDBlueTeam"
+		"TeamSpec"											"204 204 204 255"
+		"TeamRed"											"255 64 64 255"
+		"TeamBlue"											"153 204 255 255"
 
 		"MapDescriptionText"								"Gray"
 		"HudIcon_Green"										"0 160 0 255"
 		"HudIcon_Red"										"160 0 0 255"
 
 		"ItemColor"											"255 167 42 200"
-		"MenuColor"											"White"
-		"MenuBoxBg"											"TransparentLightBlack"
+		"MenuColor"											"233 208 173 255"
+		"MenuBoxBg"											"0 0 0 100"
 
-		"SelectionNumberFg"									"White"
-		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg"								"TransparentLightBlack"
-		"SelectionBoxBg"									"TransparentLightBlack"
-		"SelectionSelectedBoxBg"							"TransparentBlack"
+		"SelectionNumberFg"									"255 255 255 255"
+		"SelectionTextFg"									"255 255 255 255"
+		"SelectionEmptyBoxBg"								"0 0 0 80"
+		"SelectionBoxBg"									"0 0 0 80"
+		"SelectionSelectedBoxBg"							"0 0 0 190"
 
-		"HintMessageFg"										"White"
-		"HintMessageBg"										"0 0 0 0"
+		"HintMessageFg"										"255 255 255 255"
+		"HintMessageBg"										"0 0 0 60"
 
-		"ProgressBarFg"										"Red"
+		"ProgressBarFg"										"255 30 13 255"
 
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"

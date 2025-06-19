@@ -2,16 +2,12 @@
 
 "Resource/UI/Destroy_Menu/Tele_Exit_Active.res"
 {
-	"ItemNameLabel"
+	"BuildingIcon"
 	{
-		"LabelText"									"#TF_Object_Tele_Exit_360"
-	}
-	"BuildingImage"
-	{
-		"LabelText"									"y"
+		"icon"										"obj_status_tele_exit"
 	}
 	"NumberLabel"
 	{
-		"LabelText"									"4"
+		"labelText"									"4"
 	}
 }

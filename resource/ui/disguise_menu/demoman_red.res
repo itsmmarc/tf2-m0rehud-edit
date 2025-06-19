@@ -2,24 +2,12 @@
 
 "Resource/UI/Disguise_Menu/Demoman_Red.res"
 {
-	"TitleBG"
-	{
-		"Visible"									"0"
-	}
-	"ItemNameLabel"
-	{
-		"LabelText"									"#TF_Class_Name_Demoman"
-	}
 	"ClassIcon"
 	{
-		"LabelText"									"d"
+		"icon"										"hud_menu_demoman_red"
 	}
 	"NumberLabel"
 	{
-		"LabelText"									"4"
-	}
-	"NewNumberLabel"
-	{
-		"LabelText"									"1"
+		"labelText"									"4"
 	}
 }

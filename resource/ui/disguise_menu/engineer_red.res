@@ -2,24 +2,16 @@
 
 "Resource/UI/Disguise_Menu/Engineer_Red.res"
 {
-	"TitleBG"
-	{
-		"Visible"									"0"
-	}
-	"ItemNameLabel"
-	{
-		"LabelText"									"#TF_Class_Name_Engineer"
-	}
 	"ClassIcon"
 	{
-		"LabelText"									"f"
-	}
-	"NumberLabel"
-	{
-		"LabelText"									"6"
+		"icon"										"hud_menu_engineer_red"
 	}
 	"NewNumberLabel"
 	{
-		"LabelText"									"3"
+		"labelText"									"3"
+	}
+	"NumberLabel"
+	{
+		"labelText"									"6"
 	}
 }

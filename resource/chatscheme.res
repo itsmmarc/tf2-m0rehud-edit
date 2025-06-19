@@ -3,161 +3,159 @@
 	"Colors"
 	{
 		"White"												"255 255 255 255"
-		"OffWhite"											"255 255 255 255"
-		"DullWhite"											"0 0 0 255"
-		"Orange"											"240 155 80 255"
-		"TransparentBlack"									"0 0 0 0"
+		"OffWhite"											"216 216 216 255"
+		"DullWhite"											"142 142 142 255"
+		"Orange"											"255 155 0 255"
+		"TransparentBlack"									"0 0 0 128"
 		"Black"												"0 0 0 255"
-		"Green"												"0 215 0 255"
+		"Green"												"63 185 73 255"
+
 		"Blank"												"0 0 0 0"
 	}
-
 	"BaseSettings"
 	{
-		"Border.Bright"										"Blank"
-		"Border.Dark"										"Blank"
-		"Border.Selection"									"Blank"
+		"Border.Bright"										"200 200 200 196"
+		"Border.Dark"										"40 40 40 196"
+		"Border.Selection"									"0 0 0 196"
 
 		"Button.TextColor"									"White"
-		"Button.BGColor"									"0 0 0 125"
+		"Button.BgColor"									"Blank"
 		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBGColor"								"0 0 0 200"
+		"Button.ArmedBgColor"								"Blank"
 		"Button.DepressedTextColor"							"White"
-		"Button.DepressedBGColor"							"0 0 0 125"
+		"Button.DepressedBgColor"							"Blank"
 		"Button.FocusBorderColor"							"Black"
 
-		"CheckButton.TextColor"								"White"
+		"CheckButton.TextColor"								"OffWhite"
 		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BGColor"								"0 0 0 125"
-		"CheckButton.Border1"								"White"
-		"CheckButton.Border2"								"White"
+		"CheckButton.BgColor"								"TransparentBlack"
+		"CheckButton.Border1"								"Border.Dark"
+		"CheckButton.Border2"								"Border.Bright"
 		"CheckButton.Check"									"White"
-		"CheckButton.HighlightFGColor"						"White"
 
-		"ComboBoxButton.ArrowColor"							"White"
+		"ComboBoxButton.ArrowColor"							"DullWhite"
 		"ComboBoxButton.ArmedArrowColor"					"White"
-		"ComboBoxButton.BGColor"							"Blank"
-		"ComboBoxButton.DisabledBGColor"					"Blank"
+		"ComboBoxButton.BgColor"							"Blank"
+		"ComboBoxButton.DisabledBgColor"					"Blank"
 
 		"Chat.TypingText"									"White"
 
 		"Frame.TitleTextInsetX"								"16"
 		"Frame.ClientInsetX"								"8"
 		"Frame.ClientInsetY"								"6"
-		"Frame.BGColor"										"Blank"
-		"Frame.OutOfFocusBGColor"							"Blank"
-		"Frame.FocusTransitionEffectTime"					"0.2"
-		"Frame.TransitionEffectTime"						"0.2"
+		"Frame.BgColor"										"160 160 160 128"
+		"Frame.OutOfFocusBgColor"							"160 160 160 32"
+		"Frame.FocusTransitionEffectTime"					"0.3"
+		"Frame.TransitionEffectTime"						"0.3"
 		"Frame.AutoSnapRange"								"0"
-		"FrameGrip.Color1"									"0 0 0 200"
-		"FrameGrip.Color2"									"0 0 0 200"
-		"FrameTitleButton.FGColor"							"0 0 0 220"
-		"FrameTitleButton.BGColor"							"Blank"
-		"FrameTitleButton.DisabledFGColor"					"255 255 255 190"
-		"FrameTitleButton.DisabledBGColor"					"Blank"
-		"FrameSystemButton.FGColor"							"Blank"
-		"FrameSystemButton.BGColor"							"Blank"
+		"FrameGrip.Color1"									"200 200 200 196"
+		"FrameGrip.Color2"									"0 0 0 196"
+		"FrameTitleButton.FgColor"							"200 200 200 196"
+		"FrameTitleButton.BgColor"							"Blank"
+		"FrameTitleButton.DisabledFgColor"					"255 255 255 192"
+		"FrameTitleButton.DisabledBgColor"					"Blank"
+		"FrameSystemButton.FgColor"							"Blank"
+		"FrameSystemButton.BgColor"							"Blank"
 		"FrameSystemButton.Icon"							""
 		"FrameSystemButton.DisabledIcon"					""
 		"FrameTitleBar.Font"								"UiBold"
 		"FrameTitleBar.Font"								"DefaultLarge"
 		"FrameTitleBar.TextColor"							"White"
-		"FrameTitleBar.BGColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"255 255 255 190"
-		"FrameTitleBar.DisabledBGColor"						"Blank"
+		"FrameTitleBar.BgColor"								"Blank"
+		"FrameTitleBar.DisabledTextColor"					"255 255 255 192"
+		"FrameTitleBar.DisabledBgColor"						"Blank"
 
-		"GraphPanel.FGColor"								"White"
-		"GraphPanel.BGColor"								"Blank"
+		"GraphPanel.FgColor"								"White"
+		"GraphPanel.BgColor"								"TransparentBlack"
 
-		"Label.TextDullColor"								"White"
-		"Label.TextColor"									"White"
+		"Label.TextDullColor"								"DullWhite"
+		"Label.TextColor"									"OffWhite"
 		"Label.TextBrightColor"								"White"
 		"Label.SelectedTextColor"							"White"
-		"Label.BGColor"										"Blank"
-		"Label.DisabledFGColor1"							"117 117 117 255"
-		"Label.DisabledFGColor2"							"0 0 0 255"
+		"Label.BgColor"										"TransparentBlack"
+		"Label.DisabledFgColor1"							"117 117 117 255"
+		"Label.DisabledFgColor2"							"30 30 30 255"
 
-		"ListPanel.TextColor"								"White"
-		"ListPanel.TextBGColor"								"Blank"
-		"ListPanel.BGColor"									"Blank"
+		"ListPanel.TextColor"								"OffWhite"
+		"ListPanel.TextBgColor"								"Blank"
+		"ListPanel.BgColor"									"TransparentBlack"
 		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBGColor"							"Orange"
-		"ListPanel.SelectedOutOfFocusBGColor"				"255 155 0 128"
-		"ListPanel.EmptyListInfoTextColor"					"White"
+		"ListPanel.SelectedBgColor"							"Orange"
+		"ListPanel.SelectedOutOfFocusBgColor"				"255 155 0 128"
+		"ListPanel.EmptyListInfoTextColor"					"OffWhite"
 
 		"Menu.TextColor"									"White"
-		"Menu.BGColor"										"0 0 0 200"
+		"Menu.BgColor"										"160 160 160 64"
 		"Menu.ArmedTextColor"								"Black"
-		"Menu.ArmedBGColor"									"Orange"
+		"Menu.ArmedBgColor"									"Orange"
 		"Menu.TextInset"									"6"
 
-		"Panel.FGColor"										"Blank"
-		"Panel.BGColor"										"0 0 0 200"
+		"Panel.FgColor"										"Blank"
+		"Panel.BgColor"										"DullWhite"
 
-		"ProgressBar.FGColor"								"White"
-		"ProgressBar.BGColor"								"Blank"
+		"ProgressBar.FgColor"								"White"
+		"ProgressBar.BgColor"								"TransparentBlack"
 
-		"PropertySheet.TextColor"							"White"
+		"PropertySheet.TextColor"							"OffWhite"
 		"PropertySheet.SelectedTextColor"					"White"
 		"PropertySheet.TransitionEffectTime"				"0.25"
 
-		"RadioButton.TextColor"								"White"
+		"RadioButton.TextColor"								"DullWhite"
 		"RadioButton.SelectedTextColor"						"White"
 
-		"RichText.TextColor"								"White"
-		"RichText.BGColor"									"Blank"
+		"RichText.TextColor"								"OffWhite"
+		"RichText.BgColor"									"TransparentBlack"
 		"RichText.SelectedTextColor"						"Black"
-		"RichText.SelectedBGColor"							"160 165 170 255"
+		"RichText.SelectedBgColor"							"Orange"
 
-		"ScrollBar.Wide"									"5"
+		"ScrollBar.Wide"									"17"
 
-		"ScrollBarButton.FGColor"							"Blank"
-		"ScrollBarButton.BGColor"							"Blank"
-		"ScrollBarButton.ArmedFGColor"						"Blank"
-		"ScrollBarButton.ArmedBGColor"						"Blank"
-		"ScrollBarButton.DepressedFGColor"					"Blank"
-		"ScrollBarButton.DepressedBGColor"					"Blank"
+		"ScrollBarButton.FgColor"							"White"
+		"ScrollBarButton.BgColor"							"Blank"
+		"ScrollBarButton.ArmedFgColor"						"White"
+		"ScrollBarButton.ArmedBgColor"						"Blank"
+		"ScrollBarButton.DepressedFgColor"					"White"
+		"ScrollBarButton.DepressedBgColor"					"Blank"
 
-		"ScrollBarSlider.FGColor"							"White"
-		"ScrollBarSlider.BGColor"							"Blank"
+		"ScrollBarSlider.FgColor"							"Blank"
+		"ScrollBarSlider.BgColor"							"255 255 255 64"
 
 		"SectionedListPanel.HeaderTextColor"				"White"
-		"SectionedListPanel.HeaderBGColor"					"Blank"
+		"SectionedListPanel.HeaderBgColor"					"Blank"
 		"SectionedListPanel.DividerColor"					"Black"
-		"SectionedListPanel.TextColor"						"White"
+		"SectionedListPanel.TextColor"						"DullWhite"
 		"SectionedListPanel.BrightTextColor"				"White"
-		"SectionedListPanel.BGColor"						"Blank"
+		"SectionedListPanel.BgColor"						"TransparentBlack"
 		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBGColor"				"Orange"
+		"SectionedListPanel.SelectedBgColor"				"Orange"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBGColor"		"255 155 0 128"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
 
-		"Slider.NobColor"									"White"
-		"Slider.TextColor"									"White"
-		"Slider.TrackColor"									"Black"
-		"Slider.DisabledTextColor1"							"Black"
-		"Slider.DisabledTextColor2"							"Black"
+		"Slider.NobColor"									"108 108 108 255"
+		"Slider.TextColor"									"180 180 180 255"
+		"Slider.TrackColor"									"31 31 31 255"
+		"Slider.DisabledTextColor1"							"117 117 117 255"
+		"Slider.DisabledTextColor2"							"30 30 30 255"
 
-		"TextEntry.TextColor"								"White"
-		"TextEntry.BGColor"									"Blank"
-		"TextEntry.CursorColor"								"White"
-		"TextEntry.DisabledTextColor"						"White"
-		"TextEntry.DisabledBGColor"							"Blank"
+		"TextEntry.TextColor"								"OffWhite"
+		"TextEntry.BgColor"									"TransparentBlack"
+		"TextEntry.CursorColor"								"OffWhite"
+		"TextEntry.DisabledTextColor"						"DullWhite"
+		"TextEntry.DisabledBgColor"							"Blank"
 		"TextEntry.SelectedTextColor"						"Black"
-		"TextEntry.SelectedBGColor"							"160 165 170 255"
-		"TextEntry.OutOfFocusSelectedBGColor"				"160 165 170 255"
-		"TextEntry.FocusEdgeColor"							"0 0 0 200"
+		"TextEntry.SelectedBgColor"							"Orange"
+		"TextEntry.OutOfFocusSelectedBgColor"				"255 155 0 128"
+		"TextEntry.FocusEdgeColor"							"0 0 0 196"
 
 		"ToggleButton.SelectedTextColor"					"White"
 
-		"Tooltip.TextColor"									"0 0 0 200"
-		"Tooltip.BGColor"									"Orange"
+		"Tooltip.TextColor"									"0 0 0 196"
+		"Tooltip.BgColor"									"Orange"
 
-		"TreeView.BGColor"									"Blank"
+		"TreeView.BgColor"									"TransparentBlack"
 
-		"WizardSubPanel.BGColor"							"Blank"
+		"WizardSubPanel.BgColor"							"Blank"
 
-		// scheme-specific colors
 		"MainMenu.TextColor"								"White"
 		"MainMenu.ArmedTextColor"							"200 200 200 255"
 		"MainMenu.DepressedTextColor"						"192 186 80 255"
@@ -165,7 +163,7 @@
 		"MainMenu.Inset"									"32"
 		"MainMenu.Backdrop"									"0 0 0 156"
 
-		"Console.TextColor"									"White"
+		"Console.TextColor"									"OffWhite"
 		"Console.DevTextColor"								"White"
 
 		"NewGame.TextColor"									"White"
@@ -183,19 +181,14 @@
 		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
 	}
 
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	"Fonts"
 	{
 		"Default"
 		{
-			"isproportional"								"only"
-
 			"1"
 			{
 				"name"										"Verdana"
-				"Tall"										"12"
+				"tall"										"12"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
@@ -203,7 +196,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"Tall"										"13"
+				"tall"										"13"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
@@ -211,7 +204,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"Tall"										"14"
+				"tall"										"14"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
@@ -220,7 +213,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"Tall"										"16"
+				"tall"										"16"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
@@ -229,9 +222,10 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"Tall"										"8"
+				"tall"										"20"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -240,21 +234,24 @@
 			"1"
 			{
 				"name"										"Verdana"
-				"Tall"										"12"
+				"tall"										"12"
+				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
 			"2"
 			{
 				"name"										"Verdana"
-				"Tall"										"12"
+				"tall"										"12"
+				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
 			"3"
 			{
 				"name"										"Verdana"
-				"Tall"										"12"
+				"tall"										"12"
+				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -262,7 +259,8 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"Tall"										"14"
+				"tall"										"14"
+				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -270,38 +268,20 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"Tall"										"16"
+				"tall"										"16"
+				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
-		"Filters"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"Tall"										"7"
-				"antialias"									"1"
-			}
-		}
-		"Filters_Icon"
-		{
-			"1"
-			{
-				"name"										"m0rehud_icons_v13"
-				"Tall"										"14"
-				"antialias"									"1"
-			}
-		}
-		// this is the symbol font
 		"Marlett"
 		{
 
 			"1"
 			{
 				"name"										"Marlett"
-				"Tall"										"10"
+				"tall"										"10"
 				"weight"									"0"
 				"yres"										"480 599"
 				"symbol"									"1"
@@ -309,7 +289,7 @@
 			"2"
 			{
 				"name"										"Marlett"
-				"Tall"										"14"
+				"tall"										"14"
 				"weight"									"0"
 				"yres"										"600 767"
 				"symbol"									"1"
@@ -317,7 +297,7 @@
 			"3"
 			{
 				"name"										"Marlett"
-				"Tall"										"13"
+				"tall"										"13"
 				"weight"									"0"
 				"yres"										"768 1023"
 				"symbol"									"1"
@@ -325,7 +305,7 @@
 			"4"
 			{
 				"name"										"Marlett"
-				"Tall"										"17"
+				"tall"										"17"
 				"weight"									"0"
 				"yres"										"1024 1199"
 				"symbol"									"1"
@@ -333,19 +313,18 @@
 			"5"
 			{
 				"name"										"Marlett"
-				"Tall"										"22"
+				"tall"										"22"
 				"weight"									"0"
 				"yres"										"1200 10000"
 				"symbol"									"1"
 			}
 		}
-
 		"MarlettSmall"
 		{
 			"1"
 			{
 				"name"										"Marlett"
-				"Tall"										"7"
+				"tall"										"7"
 				"weight"									"0"
 				"yres"										"480 599"
 				"symbol"									"1"
@@ -353,7 +332,7 @@
 			"2"
 			{
 				"name"										"Marlett"
-				"Tall"										"9"
+				"tall"										"9"
 				"weight"									"0"
 				"yres"										"600 767"
 				"symbol"									"1"
@@ -361,7 +340,7 @@
 			"3"
 			{
 				"name"										"Marlett"
-				"Tall"										"11"
+				"tall"										"11"
 				"weight"									"0"
 				"yres"										"768 1023"
 				"symbol"									"1"
@@ -369,7 +348,7 @@
 			"4"
 			{
 				"name"										"Marlett"
-				"Tall"										"13"
+				"tall"										"13"
 				"weight"									"0"
 				"yres"										"1024 1199"
 				"symbol"									"1"
@@ -377,21 +356,18 @@
 			"5"
 			{
 				"name"										"Marlett"
-				"Tall"										"17"
+				"tall"										"17"
 				"weight"									"0"
 				"yres"										"1200 10000"
 				"symbol"									"1"
 			}
 		}
-
 		"ChatFont"
 		{
-			"isproportional"								"only"
-
 			"1"
 			{
 				"name"										"Verdana"
-				"Tall"										"12"
+				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
 				"dropshadow"								"1"
@@ -399,7 +375,7 @@
 			"2"
 			{
 				"name"										"Verdana"
-				"Tall"										"14"
+				"tall"										"14"
 				"weight"									"700"
 				"yres"										"600 767"
 				"dropshadow"								"1"
@@ -407,7 +383,7 @@
 			"3"
 			{
 				"name"										"Verdana"
-				"Tall"										"15"
+				"tall"										"15"
 				"weight"									"700"
 				"yres"										"768 1023"
 				"dropshadow"								"1"
@@ -415,7 +391,7 @@
 			"4"
 			{
 				"name"										"Verdana"
-				"Tall"										"17"
+				"tall"										"17"
 				"weight"									"700"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
@@ -423,31 +399,31 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"Tall"										"8"
-				"weight"									"300"
+				"tall"										"22"
+				"weight"									"700"
+				"yres"										"1200 10000"
 				"dropshadow"								"1"
-				"antialias"									"1"
 			}
 		}
 	}
-
 	"Borders"
 	{
-		BaseBorder		DepressedBorder
-		ButtonBorder	RaisedBorder
-		ComboBoxBorder	DepressedBorder
-		MenuBorder		RaisedBorder
-		BrowserBorder	DepressedBorder
-		PropertySheetBorder	RaisedBorder
+		"BaseBorder"			"DepressedBorder"
+		"ButtonBorder"			"RaisedBorder"
+		"omboBoxBorder"			"DepressedBorder"
+		"MenuBorder"			"RaisedBorder"
+		"BrowserBorder"			"DepressedBorder"
+		"PropertySheetBorder"	"RaisedBorder"
 
 		"FrameBorder"
 		{
-			"backgroundtype"								"0"
+			"backgroundtype"								"2"
 		}
 
 		"DepressedBorder"
 		{
 			"inset"											"0 0 1 1"
+
 			"Left"
 			{
 				"1"
@@ -481,10 +457,10 @@
 				}
 			}
 		}
-
 		"RaisedBorder"
 		{
 			"inset"											"0 0 1 1"
+
 			"Left"
 			{
 				"1"
@@ -518,27 +494,22 @@
 				}
 			}
 		}
-
 		"TitleButtonBorder"
 		{
-			"backgroundtype"								"2"
+			"backgroundtype"								"0"
 		}
 		"TitleButtonDisabledBorder"
 		{
-			"backgroundtype"								"2"
+			"backgroundtype"								"0"
 		}
 		"TitleButtonDepressedBorder"
 		{
-			"backgroundtype"								"2"
+			"backgroundtype"								"0"
 		}
-		"ButtonBorder"
-		{
-			"backgroundtype"								"2"
-		}
-
 		"ScrollBarButtonBorder"
 		{
 			"inset"											"2 2 0 0"
+
 			"Left"
 			{
 				"1"
@@ -572,10 +543,10 @@
 				}
 			}
 		}
-
 		"ScrollBarButtonDepressedBorder"
 		{
 			"inset"											"2 2 0 0"
+
 			"Left"
 			{
 				"1"
@@ -609,10 +580,10 @@
 				}
 			}
 		}
-
 		"TabBorder"
 		{
 			"inset"											"0 0 1 1"
+
 			"Left"
 			{
 				"1"
@@ -637,12 +608,11 @@
 					"offset"								"0 0"
 				}
 			}
-
 		}
-
 		"TabActiveBorder"
 		{
 			"inset"											"0 0 1 0"
+
 			"Left"
 			{
 				"1"
@@ -668,10 +638,10 @@
 				}
 			}
 		}
-
 		"ToolTipBorder"
 		{
 			"inset"											"0 0 1 0"
+
 			"Left"
 			{
 				"1"
@@ -705,10 +675,10 @@
 				}
 			}
 		}
-
 		"ButtonKeyFocusBorder"
 		{
 			"inset"											"0 0 1 1"
+
 			"Left"
 			{
 				"1"
@@ -762,10 +732,10 @@
 				}
 			}
 		}
-
 		"ButtonDepressedBorder"
 		{
 			"inset"											"2 1 1 1"
+
 			"Left"
 			{
 				"1"
@@ -800,18 +770,9 @@
 			}
 		}
 	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	"CustomFontFiles"
 	{
-		"1" "resource/HALFLIFE2.ttf"
-		"2" "resource/HL2EP2.ttf"
-		"3"
-		{
-			"Font"	"resource/scheme/fonts/m0rehud_icons.ttf"
-			"name"	"m0rehud_icons_v13"
-		}
+		"1"	"resource/HALFLIFE2.ttf"
+		"2"	"resource/HL2EP2.ttf"
 	}
 }

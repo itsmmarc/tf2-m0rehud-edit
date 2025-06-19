@@ -2,16 +2,13 @@
 
 "Resource/UI/Destroy_Menu/Sentry_Active.res"
 {
-	"ItemNameLabel"
+	"BuildingIcon"
 	{
-		"LabelText"									"#TF_Object_Sentry"
-	}
-	"BuildingImage"
-	{
-		"LabelText"									"t"
+		"xpos"										"cs-0.5+1"
+		"icon"										"obj_status_sentrygun_2"
 	}
 	"NumberLabel"
 	{
-		"LabelText"									"1"
+		"labelText"									"1"
 	}
 }

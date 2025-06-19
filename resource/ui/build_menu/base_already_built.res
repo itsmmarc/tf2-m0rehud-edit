@@ -2,17 +2,21 @@
 
 "Resource/UI/Build_Menu/Base_Already_Built.res"
 {
-	"ItemNameLabel"
-	{
-		"Visible"									"0"
-	}
 	"CantBuildReason"
 	{
-		"Visible"									"1"
-		"LabelText"									"Already Built"
+		"visible"									"1"
+		"labelText"									"#Hud_Menu_Build_Already_Built"
+	}
+	"BuildingIcon"
+	{
+		"visible"									"0"
 	}
 	"CostLabel"
 	{
-		"Visible"									"0"
+		"visible"									"0"
+	}
+	"NumberLabel"
+	{
+		"visible"									"0"
 	}
 }

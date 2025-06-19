@@ -2,24 +2,16 @@
 
 "Resource/UI/Disguise_Menu/Sniper_Red.res"
 {
-	"TitleBG"
-	{
-		"Visible"									"0"
-	}
-	"ItemNameLabel"
-	{
-		"LabelText"									"#TF_Class_Name_Sniper"
-	}
 	"ClassIcon"
 	{
-		"LabelText"									"h"
-	}
-	"NumberLabel"
-	{
-		"LabelText"									"8"
+		"icon"										"hud_menu_sniper_red"
 	}
 	"NewNumberLabel"
 	{
-		"LabelText"									"2"
+		"labelText"									"2"
+	}
+	"NumberLabel"
+	{
+		"labelText"									"8"
 	}
 }
