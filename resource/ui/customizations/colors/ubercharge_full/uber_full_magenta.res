@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{
-		"Ubercharge_Full"									"255 0 127 255"
-		"Ubercharge_Shadow_Full"							"255 0 127 255"
+		"Ubercharge_Full"									"82 180 181 255"
+		"Ubercharge_Shadow_Full"							"82 180 181 255"
 	}
 }

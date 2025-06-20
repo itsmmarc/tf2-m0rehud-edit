@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{
-		"Menu_Accent"										"255 0 127 255"
+		"Menu_Accent"										"82 180 181 255"
 		"Class_Selection"									"0 215 0 255"
 
 		//BACKGROUNDS
@@ -25,21 +25,21 @@
 		"SS_Frame_Inactive"									"66 63 61 255"
 		"SS_ListBG"											"28 26 25 255"
 		"SS_List_Button"									"32 30 29 255"
-		"SS_List_Button_Armed"								"255 0 127 255"
+		"SS_List_Button_Armed"								"82 180 181 255"
 		"SS_Button_BG"										"28 26 25 255"
-		"SS_Button_BG_Armed"								"255 0 127 255"
+		"SS_Button_BG_Armed"								"82 180 181 255"
 		"SS_RightClick_Menu_BG"								"18 15 14 255"
-		"SS_RightClick_Menu_BG_Armed"						"255 0 127 255"
-		"SS_CheckButton_Text_Armed"							"255 0 127 255"
+		"SS_RightClick_Menu_BG_Armed"						"82 180 181 255"
+		"SS_CheckButton_Text_Armed"							"82 180 181 255"
 		"SS_CheckButton_BG"									"18 15 14 255"
 		"SS_Slider_BG"										"18 15 14 255"
 		"SS_ToolTip_BG"										"150 152 154 255"
 		"SS_ScrollBar_Button_BG"							"18 15 14 255"
-		"SS_ScrollBar_Button_BG_Armed"						"255 0 127 255"
+		"SS_ScrollBar_Button_BG_Armed"						"82 180 181 255"
 		"SS_Text_Entry_BG"									"28 26 25 255"
 		"SS_Text_Entry_BG_Selected"							"150 152 154 255"
 		"SS_Console_Text_BG"								"28 26 25 255"
 		"SS_Console_Text_BG_Selected"						"150 152 154 255"
-		"SS_Console_User_Input"								"255 0 127 255"
+		"SS_Console_User_Input"								"82 180 181 255"
 	}
 }

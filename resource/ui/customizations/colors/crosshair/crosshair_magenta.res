@@ -2,6 +2,6 @@
 {
 	"Colors"
 	{
-		"Crosshair"											"255 0 127 255"
+		"Crosshair"											"82 180 181 255"
 	}
 }
