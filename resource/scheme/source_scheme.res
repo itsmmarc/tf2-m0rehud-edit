@@ -5,13 +5,13 @@
 		//=========================================================================================================================
 		// SOURCE SCHEME COLOR CUSTOMIZATION
 		//=========================================================================================================================
-		"SS_Frame_Active"									"66 63 61 255"
-		"SS_Frame_Inactive"									"66 63 61 255"
+		"SS_Frame_Active"									"0 0 0 200"
+		"SS_Frame_Inactive"									"0 0 0 200"
 
 		"SS_Title"											"255 255 255 255"
 		"SS_Title_Disabled"									"255 255 255 255"
 
-		"SS_ListBG"											"28 26 25 255"
+		"SS_ListBG"											"0 0 0 100"
 		"SS_List_Text"										"255 255 255 255"
 		"SS_List_Text_Armed"								"0 0 0 255"
 		"SS_List_Button"									"32 30 29 255"
@@ -30,7 +30,7 @@
 		"SS_RightClick_Menu_Text"							"255 255 255 255"
 		"SS_RightClick_Menu_Text_Armed"						"255 255 255 255"
 		"SS_RightClick_Menu_BG"								"18 15 14 255"
-		"SS_RightClick_Menu_BG_Armed"						"255 0 127 255"
+		"SS_RightClick_Menu_BG_Armed"						"10 10 10 255"
 		"SS_RightClick_Menu_Divider"						"255 255 255 255"
 
 		"SS_CheckButton_Text"								"255 255 255 255"
@@ -56,7 +56,7 @@
 		"SS_Option_Disabled"								"150 152 154 255"
 
 		"SS_ScrollBar"										"202 201 200 255"
-		"SS_ScrollBar_BG"									"18 15 14 255"
+		"SS_ScrollBar_BG"									"18 15 14 200"
 		"SS_ScrollBar_Button_Icon"							"255 255 255 255"
 		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"
 		"SS_ScrollBar_Button_BG"							"18 15 14 255"
@@ -67,10 +67,11 @@
 		"SS_Text_Entry_BG"									"28 26 25 255"
 		"SS_Text_Entry_BG_Selected"							"150 152 154 255"
 
-		"SS_Console_Text_BG"								"28 26 25 255"
+		"SS_Console_Text_BG"								"0 0 0 100"
 		"SS_Console_Text_Selected"							"18 15 14 255"
 		"SS_Console_Text_BG_Selected"						"150 152 154 255"
-		"SS_Console_User_Input"								"255 0 127 255"
+		"SS_Console_User_Input"								"82 180 181 255"
+
 	}
 	"Fonts"
 	{
