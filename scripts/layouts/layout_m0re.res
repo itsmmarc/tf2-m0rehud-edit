@@ -3,9 +3,7 @@
 	"HudWeaponAmmo"
 	{
 		"XPos"										"0"
-		"XPos_Minmode"								"0"
 		"YPos"										"0"
-		"YPos_Minmode"								"0"
 		"Wide"										"f0"
 		"Tall"										"f0"
 	}
@@ -17,29 +15,22 @@
 		"Tall"										"40"
 
 		"blue_active_xpos"							"0"
-		"blue_active_xpos_minmode"					"0"
 
 		"red_active_xpos"							"44"
-		"red_active_xpos_minmode"					"44"
 	}
 	"HudMedicCharge"
 	{
 		"XPos"										"0"
-		"XPos_Minmode"								"0"
 		"YPos"										"0"
-		"YPos_Minmode"								"0"
 		"Wide"										"f0"
 		"Tall"										"f0"
 	}
 	"HudDemomanCharge"
 	{
 		"XPos"										"0"
-		"XPos_Minmode"								"0"
 		"YPos"										"45"
-		"YPos_Minmode"								"0"
 		"ZPos"										"1"
 		"Wide"										"f0"
-		"Wide_Minmode"								"f0"
 		"Tall"										"f0"
 	}
 	"HudBossHealth"
@@ -53,16 +44,13 @@
 	{
 		"XPos"										"c-100"
 		"YPos"										"c50"
-		"YPos_Minmode"								"c53"
 		"Wide"										"200"
 		"Tall"										"50"
 	}
 	"CHealthAccountPanel"
 	{
 		"XPos"										"0"
-		"XPos_Minmode"								"0"
 		"YPos"										"r25"
-		"YPos_Minmode"								"r25"
 		"Wide"										"f0"
 		"Tall"										"25"
 	}
@@ -99,23 +87,17 @@
 	"CMainTargetID"
 	{
 		"YPos"										"cs-0.1"
-		"YPos_Minmode"								"c17"
 		"Tall"										"55"
-		"Tall_Minmode"								"55"
 	}
 	"CSpectatorTargetID"
 	{
 		"YPos"										"cs1.6"
-		"YPos_Minmode"								"c81"
 		"Tall"										"55"
-		"Tall_Minmode"								"55"
 	}
 	"CSecondaryTargetID"
 	{
 		"YPos"										"c114"
-		"YPos_Minmode"								"c73"
 		"Tall"										"55"
-		"Tall_Minmode"								"55"
 	}
 	"BuildingAnchor"
 	{
@@ -141,9 +123,7 @@
 	"CurrencyStatusPanel"
 	{
 		"XPos"										"c-45"
-		"XPos_Minmode"								"c-45"
 		"YPos"										"rs1"
-		"YPos_Minmode"								"rs1"
 		"ZPos"										"2"
 		"Wide"										"44"
 		"Tall"										"12"
@@ -175,9 +155,7 @@
 	"HudCloseCaption"
 	{
 		"XPos"										"c220"
-		"XPos_Minmode"								"c-35"
 		"YPos"										"c112"
-		"YPos_Minmode"								"r105"
 		"Wide"										"500"
 		"Tall"										"50"
 
@@ -275,9 +253,7 @@
 	"HudDemomanPipes"
 	{
 		"XPos"										"0"
-		"XPos_Minmode"								"0"
 		"YPos"										"0"
-		"YPos_Minmode"								"0"
 		"Wide"										"f0"
 		"Tall"										"f0"
 	}
@@ -346,7 +322,6 @@
 	"HudBowCharge"
 	{
 		"Wide"										"0"
-		"Wide_Minmode"								"0"
 	}
 	"StatPanel"
 	{

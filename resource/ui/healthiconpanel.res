@@ -7,7 +7,6 @@
 		"XPos"										"0"
 		"YPos"										"0"
 		"Wide"										"55"
-		"Wide_Minmode"								"40"
 		"Tall"										"40"
 		"Visible"									"1"
 		"Enabled"									"1"
