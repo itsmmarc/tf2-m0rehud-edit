@@ -1,12 +1,12 @@
 "Scripts/Layouts/Layout_Default.res"
 {
-	"HudPlayerStatus"
+	"HudPlayerStatus"   // player health
 	{
 		"FieldName"									"HudPlayerStatus"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"-10"
 		"Wide"										"f0"
 		"Tall"										"480"
 	}
@@ -20,13 +20,13 @@
 		"Wide"										"94"
 		"Tall"										"45"
 	}
-	"HudObjectiveStatus"
+	"HudObjectiveStatus"    // disabled
 	{
 		"FieldName"									"HudObjectiveStatus"
 		"Visible"									"1"
 		"Enabled"									"1"
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"99999"
 		"Wide"										"f0"
 		"Tall"										"480"
 	}

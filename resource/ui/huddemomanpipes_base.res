@@ -35,11 +35,11 @@
 		"Pin_To_Sibling_Corner"						"PIN_CENTER_TOP"
 	}
 
-	"PipesPresentPanel"
+	"PipesPresentPanel" // main bit to edit
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"PipesPresentPanel"
-		"XPos"										"9999"
+		"XPos"										"0"
 		"YPos"										"0"
 		"ZPos"										"1"
 		"Wide"										"f0"

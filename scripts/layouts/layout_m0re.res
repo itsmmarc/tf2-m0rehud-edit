@@ -2,8 +2,9 @@
 {
 	"HudWeaponAmmo"
 	{
-		"XPos"										"0"
-		"YPos"										"0"
+		"XPos"										"50"
+        "XPos_Minmode"								"0"
+		"YPos"										"-10"
 		"Wide"										"f0"
 		"Tall"										"f0"
 	}
@@ -253,7 +254,8 @@
 	"HudDemomanPipes"
 	{
 		"XPos"										"0"
-		"YPos"										"0"
+		"YPos"										"50"
+        "YPos_Minmode"								"99999"
 		"Wide"										"f0"
 		"Tall"										"f0"
 	}
