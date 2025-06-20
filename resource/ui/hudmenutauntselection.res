@@ -9,7 +9,6 @@
 		"FieldName"									"WeaponTauntLabel"
 		"XPos"										"cs-0.5"
 		"YPos"										"cs-0.5+75"
-		"YPos_Minmode"								"cs-0.5+100"
 		"ZPos"										"2"
 		"Wide"										"269"
 		"Tall"										"9"

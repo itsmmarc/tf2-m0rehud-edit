@@ -1748,7 +1748,7 @@
 			"1"
 			{
 				"name"										"surface_medium"
-				"Tall"										"10"
+				"Tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1758,7 +1758,7 @@
 			"1"
 			{
 				"name"										"surface_medium"
-				"Tall"										"14"
+				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1788,7 +1788,7 @@
 			"1"
 			{
 				"name"										"surface_uber_icons"
-				"Tall"										"10"
+				"Tall"										"1"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -1798,7 +1798,7 @@
 			"1"
 			{
 				"name"										"surface_uber_icons"
-				"Tall"										"14"
+				"Tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
