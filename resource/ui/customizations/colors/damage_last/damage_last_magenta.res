@@ -2,6 +2,6 @@
 {
 	"Colors"
 	{
-		"Last_Damage_Done"									"82 180 181 255"
+		"Last_Damage_Done"									"98 219 220 255"
 	}
 }

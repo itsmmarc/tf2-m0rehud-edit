@@ -15,12 +15,12 @@
 		"SS_List_Text"										"255 255 255 255"
 		"SS_List_Text_Armed"								"0 0 0 255"
 		"SS_List_Button"									"32 30 29 255"
-		"SS_List_Button_Armed"								"82 180 181 255"
+		"SS_List_Button_Armed"								"98 219 220 255"
 
 		"SS_Button_Text"									"255 255 255 255"
 		"SS_Button_Text_Armed"								"255 255 255 255"
 		"SS_Button_BG"										"28 26 25 255"
-		"SS_Button_BG_Armed"								"82 180 181 255"
+		"SS_Button_BG_Armed"								"98 219 220 255"
 
 		"SS_Sheet_Text"										"255 255 255 255"
 		"SS_Sheet_Text_Selected"							"255 255 255 255"
@@ -34,7 +34,7 @@
 		"SS_RightClick_Menu_Divider"						"255 255 255 255"
 
 		"SS_CheckButton_Text"								"255 255 255 255"
-		"SS_CheckButton_Text_Armed"							"82 180 181 255"
+		"SS_CheckButton_Text_Armed"							"98 219 220 255"
 		"SS_CheckButton_BG"									"18 15 14 255"
 		"SS_CheckButton_Armed"								"255 255 255 255"
 
@@ -60,7 +60,7 @@
 		"SS_ScrollBar_Button_Icon"							"255 255 255 255"
 		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"
 		"SS_ScrollBar_Button_BG"							"18 15 14 255"
-		"SS_ScrollBar_Button_BG_Armed"						"82 180 181 255"
+		"SS_ScrollBar_Button_BG_Armed"						"98 219 220 255"
 
 		"SS_Text_Entry"										"255 255 255 255"
 		"SS_Text_Entry_Selected"							"18 15 14 255"
@@ -70,7 +70,7 @@
 		"SS_Console_Text_BG"								"0 0 0 100"
 		"SS_Console_Text_Selected"							"18 15 14 255"
 		"SS_Console_Text_BG_Selected"						"150 152 154 255"
-		"SS_Console_User_Input"								"82 180 181 255"
+		"SS_Console_User_Input"								"98 219 220 255"
 
 	}
 	"Fonts"
