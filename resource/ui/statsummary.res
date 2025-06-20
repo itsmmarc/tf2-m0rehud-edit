@@ -26,13 +26,13 @@
 		"ZPos"										"2"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"0"
+		"Visible"									"1"
 		"Enabled"									"1"
 		"Image"										"replay/thumbnails/menu/loading_bg"
 		"ScaleImage"								"1"
 	}
 	//=====================================================================================
-	"SolidBackground"
+	"SolidBackground"   // disabled
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"SolidBackground"
@@ -41,8 +41,8 @@
 		"ZPos"										"1"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ScaleImage"								"1"
 		"FillColor"									"Background_Main"
 	}
@@ -261,17 +261,17 @@
 		"TextAlignment"								"center"
 		"FGColor"									"Gray"
 	}
-	"StatData"
+	"StatData"  // disabled
 	{
 		"ControlName"								"EditablePanel"
 		"FieldName"									"StatData"
-		"XPos"										"0"
+		"XPos"										"99999"
 		"YPos"										"90"
 		"ZPos"										"50"
 		"Wide"										"f0"
 		"Tall"										"f0"
-		"Visible"									"1"
-		"Enabled"									"1"
+		"Visible"									"0"
+		"Enabled"									"0"
 		"ProportionalToParent"						"1"
 
 		"MainStatBackground"
