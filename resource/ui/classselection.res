@@ -130,7 +130,7 @@
             "tall"         "170"
             "visible"      "1"
             "enabled"      "1"
-            "image"         "itsame/leaderboard_class_soldier_explode"
+            "image"         "itsame/Soldier_Class_Emblem"
             "scaleImage"   "1"
         }
     }
@@ -240,7 +240,7 @@
             "tall"         "170"
             "visible"      "1"
             "enabled"      "1"
-            "image"         "itsame/leaderboard_class_demo_sticky_daan"
+            "image"         "itsame/Demoman_Class_Emblem"
             "scaleImage"   "1"
         }
     }
