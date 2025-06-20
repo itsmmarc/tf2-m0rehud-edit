@@ -1244,6 +1244,47 @@
                 "DepressedFGColor_Override"				"Menu_Accent"
             }
         }
+        "ToggleMinmode"
+        {
+            "ControlName"								"EditablePanel"
+            "FieldName"									"ToggleMinmode"
+            "XPos"										"0"
+            "YPos"										"2"
+            "ZPos"										"15"
+            "Wide"										"20"
+            "Tall"										"20"
+            "Visible"									"1"
+
+            "Pin_To_Sibling"							"ASpeedo"
+            "Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+            "Pin_To_Sibling_Corner"						"PIN_BOTTOMRIGHT"
+
+            "SubButton"
+            {
+                "ControlName"							"CExImageButton"
+                "FieldName"								"SubButton"
+                "XPos"									"0"
+                "YPos"									"0"
+                "Wide"									"f0"
+                "Tall"									"f0"
+                "Visible"								"1"
+                "Enabled"								"1"
+                "ProportionalToParent"					"1"
+                "Use_Proportional_Insets"				"1"
+                "TextInsetX"							"0"
+                "Font"									"Symbols18"
+                "TextAlignment"							"center"
+                "Sound_Depressed"						"UI/buttonclick.wav"
+                
+
+                "PaintBackground"						"0"
+                "PaintBorder"							"0"
+
+                "DefaultFGColor_Override"				"White"
+                "ArmedFGColor_Override"					"Menu_Accent"
+                "DepressedFGColor_Override"				"Menu_Accent"
+            }
+        }
 
         "FullBright"
         {
