@@ -5,8 +5,8 @@
 		//=========================================================================================================================
 		// SOURCE SCHEME COLOR CUSTOMIZATION
 		//=========================================================================================================================
-		"SS_Frame_Active"									"0 0 0 200"
-		"SS_Frame_Inactive"									"0 0 0 200"
+		"SS_Frame_Active"									"0 0 0 230" // main window background
+		"SS_Frame_Inactive"									"0 0 0 230"
 
 		"SS_Title"											"255 255 255 255"
 		"SS_Title_Disabled"									"255 255 255 255"
@@ -14,29 +14,30 @@
 		"SS_ListBG"											"0 0 0 100"
 		"SS_List_Text"										"255 255 255 255"
 		"SS_List_Text_Armed"								"0 0 0 255"
-		"SS_List_Button"									"32 30 29 255"
-		"SS_List_Button_Armed"								"98 219 220 255"
+		"SS_List_Button"									"0 0 0 240"         // server list background
+		"SS_List_Button_Armed"								"81 181 182 255"
 
 		"SS_Button_Text"									"255 255 255 255"
-		"SS_Button_Text_Armed"								"255 255 255 255"
-		"SS_Button_BG"										"28 26 25 255"
-		"SS_Button_BG_Armed"								"98 219 220 255"
+		"SS_Button_Text_Armed"								"0 0 0 255"
+		"SS_Button_BG"										"0 0 0 200"
+		"SS_Button_BG_Armed"								"81 181 182 255"
 
 		"SS_Sheet_Text"										"255 255 255 255"
 		"SS_Sheet_Text_Selected"							"255 255 255 255"
 
 		"SS_CloseButton"									"255 255 255 255"
 
+        // right click menu also does dropdown lists
 		"SS_RightClick_Menu_Text"							"255 255 255 255"
 		"SS_RightClick_Menu_Text_Armed"						"255 255 255 255"
-		"SS_RightClick_Menu_BG"								"18 15 14 255"
-		"SS_RightClick_Menu_BG_Armed"						"10 10 10 255"
+		"SS_RightClick_Menu_BG"								"0 0 0 255"
+		"SS_RightClick_Menu_BG_Armed"						"81 181 182 255"
 		"SS_RightClick_Menu_Divider"						"255 255 255 255"
 
 		"SS_CheckButton_Text"								"255 255 255 255"
 		"SS_CheckButton_Text_Armed"							"98 219 220 255"
-		"SS_CheckButton_BG"									"18 15 14 255"
-		"SS_CheckButton_Armed"								"255 255 255 255"
+		"SS_CheckButton_BG"									"0 0 0 200"
+		"SS_CheckButton_Armed"								"255 255 255 255"   // checkbox tick
 
 		"SS_Combobox_BG"									"0 0 0 0"
 		"SS_Combobox_Arrow"									"255 255 255 255"
@@ -55,22 +56,22 @@
 
 		"SS_Option_Disabled"								"150 152 154 255"
 
-		"SS_ScrollBar"										"202 201 200 255"
+		"SS_ScrollBar"										"240 240 240 240"
 		"SS_ScrollBar_BG"									"18 15 14 200"
-		"SS_ScrollBar_Button_Icon"							"255 255 255 255"
-		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"
+		"SS_ScrollBar_Button_Icon"							"255 255 255 255"   // scroll up and scroll down arrows
+		"SS_ScrollBar_Button_Icon_Armed"					"255 255 255 255"   // scroll up and scroll down arrows armed
 		"SS_ScrollBar_Button_BG"							"18 15 14 255"
-		"SS_ScrollBar_Button_BG_Armed"						"98 219 220 255"
+		"SS_ScrollBar_Button_BG_Armed"						"81 181 182 255"    // scroll up and scroll down arrows bg
 
-		"SS_Text_Entry"										"255 255 255 255"
-		"SS_Text_Entry_Selected"							"18 15 14 255"
-		"SS_Text_Entry_BG"									"28 26 25 255"
-		"SS_Text_Entry_BG_Selected"							"150 152 154 255"
+		"SS_Text_Entry"										"255 255 255 255"   // text box text
+		"SS_Text_Entry_Selected"							"18 15 14 255"      // text box highlighted text
+		"SS_Text_Entry_BG"									"0 0 0 240"         // text box background
+		"SS_Text_Entry_BG_Selected"							"58 130 131 255"    // text box selected text bg
 
-		"SS_Console_Text_BG"								"0 0 0 100"
-		"SS_Console_Text_Selected"							"18 15 14 255"
-		"SS_Console_Text_BG_Selected"						"150 152 154 255"
-		"SS_Console_User_Input"								"98 219 220 255"
+		"SS_Console_Text_BG"								"0 0 0 150"         // console background
+		"SS_Console_Text_Selected"							"18 15 14 255"      // selected text in console
+		"SS_Console_Text_BG_Selected"						"58 130 131 255"    // selected text in console bg
+		"SS_Console_User_Input"								"98 219 220 255"    // text in console that was typed by user
 
 	}
 	"Fonts"
@@ -226,10 +227,10 @@
 	{
 		"FrameBorder"
 		{
-			"Left"		{ "1" { "color" "SS_Frame_Active" } "2" { "color" "SS_Frame_Active" } "3" { "color" "SS_Frame_Active" } }
-			"Right"		{ "1" { "color" "SS_Frame_Active" } "2" { "color" "SS_Frame_Active" } "3" { "color" "SS_Frame_Active" } }
-			"Top"		{ "1" { "color" "SS_Frame_Active" } "2" { "color" "SS_Frame_Active" } "3" { "color" "SS_Frame_Active" } }
-			"Bottom"	{ "1" { "color" "SS_Frame_Active" } "2" { "color" "SS_Frame_Active" } "3" { "color" "SS_Frame_Active" } }
+			"Left"		{ "1" { "color" "Blank" } "2" { "color" "Blank" } "3" { "color" "Blank" } }
+			"Right"		{ "1" { "color" "Blank" } "2" { "color" "Blank" } "3" { "color" "Blank" } }
+			"Top"		{ "1" { "color" "Blank" } "2" { "color" "Blank" } "3" { "color" "Blank" } }
+			"Bottom"	{ "1" { "color" "Blank" } "2" { "color" "Blank" } "3" { "color" "Blank" } }
 		}
 	}
 }
