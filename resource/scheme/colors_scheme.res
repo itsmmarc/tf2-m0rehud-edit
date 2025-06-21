@@ -153,6 +153,7 @@
 		"GreenSolid"										"76 107 34 255"
 
 		"Black"												"0 0 0 255"
+        "BarelyTransparentBlack"							"0 0 0 240"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentMediumBlack"							"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"

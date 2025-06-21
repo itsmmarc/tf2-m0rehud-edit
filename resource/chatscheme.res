@@ -813,5 +813,10 @@
 			"Font"	"resource/scheme/fonts/m0rehud_icons.ttf"
 			"name"	"m0rehud_icons_v13"
 		}
+        "4"
+        {
+			"Font"	"resource/scheme/fonts/tf2_class_icons.ttf"
+			"name"	"TF2 Class Icons V3"
+		}
 	}
 }
